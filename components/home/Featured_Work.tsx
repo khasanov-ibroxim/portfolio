@@ -1,17 +1,16 @@
 "use client"
 import { motion, Variants } from 'framer-motion';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import { Project } from '@/data/portfolio.data';
+import { projects } from '@/data/portfolio.data';
 
 interface FeaturedWorkProps {
-    dict: any;
+    dict: any; // Changed from { [key: string]: unknown }
     lang: string;
-    initialProjects: Project[]; // Pass projects from server component
 }
 
-const FeaturedWork = ({ dict, lang, initialProjects }: FeaturedWorkProps) => {
+const FeaturedWork = ({ dict, lang }: FeaturedWorkProps) => {
     const fadeInScale: Variants = {
         hidden: { opacity: 0, scale: 0.95 },
         visible: {
@@ -50,7 +49,7 @@ const FeaturedWork = ({ dict, lang, initialProjects }: FeaturedWorkProps) => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 mt-20 gap-5">
-                {initialProjects.map((project) => (
+                {projects.map((project) => (
                     <motion.div
                         key={project.id}
                         initial="hidden"

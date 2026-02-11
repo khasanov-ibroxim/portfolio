@@ -12,7 +12,6 @@ import FavoriteStack from "@/components/home/FavoriteStack";
 import Awwards from "@/components/home/awwards";
 import Trusted from "@/components/home/trusted";
 import Questions from "@/components/home/questions";
-import {getProjects} from "@/data/portfolio.data.ts";
 
 interface HomeProps {
     params: Promise<{ lang: Locale }>;
@@ -21,11 +20,11 @@ interface HomeProps {
 export default async function Home({ params }: HomeProps) {
     const { lang } = await params;
     const dict = await getDictionary(lang, 'home');
-    const projects = await getProjects(lang);
+
     return (
         <>
             <HomeHeader dict={dict} />
-            <FeaturedWork dict={dict} lang={lang} initialProjects={projects}/>
+            <FeaturedWork dict={dict} lang={lang} />
             <HomeAbout dict={dict} />
             <Expertise dict={dict} />
             <Motivation dict={dict} />

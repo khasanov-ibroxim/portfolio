@@ -1,10 +1,10 @@
+"use client"
 import React from 'react';
 import { motion, Variants } from "framer-motion";
-import { getProjects } from "@/data/portfolio.data";
+import { projects } from "@/data/portfolio.data";
 import Link from "next/link";
 import Image from "next/image";
-import { getDictionary } from "@/lib/dictionary";
-import { Locale } from "@/i18n-config";
+import { useParams } from "next/navigation";
 
 const fadeInScale: Variants = {
     hidden: { opacity: 0, scale: 0.95 },
@@ -15,23 +15,32 @@ const fadeInScale: Variants = {
     }
 };
 
-type PageProps = {
-    params: Promise<{
-        lang: Locale;
-    }>;
+// ✅ Interface qo'shildi
+interface WorkDict {
+    period: string;
+    title: string;
+    moreWorks: string;
 }
 
-export default async function WorkPage({ params }: PageProps) {
-    const resolvedParams = await params;
-    const { lang } = resolvedParams;
+export default function WorkPage() {
+    const params = useParams();
+    const lang = params?.lang as string || 'en';
 
-    // Load dictionary and projects
-    const dict = await getDictionary(lang, 'work');
-    const projects = await getProjects(lang);
+    // ✅ Type to'g'rilandi
+    const [dict, setDict] = React.useState<WorkDict | null>(null);
+
+    React.useEffect(() => {
+        import(`@/dictionaries/work/${lang}.json`).then((module) => {
+            setDict(module.default);
+        });
+    }, [lang]);
+
+    if (!dict) return null;
 
     return (
         <div>
             <div className="flex w-full h-[70vh] justify-end items-center flex-col font-inter-tight font-bold text-7xl sm:text-9xl">
+                {/* ✅ dict.period endi to'g'ri ishlaydi */}
                 <div className="text-[18px] mb-5 dark:text-white/60 text-black/60 font-instrument-sans">
                     {dict.period}
                 </div>
