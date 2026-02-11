@@ -1,0 +1,17 @@
+{
+  "title": "SAY HELLO!",
+  "subtitle": "My creative spirit comes alive in the digital realm",
+  "form": {
+    "title": "FILL THIS FORM OUT",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "SEND EMAIL"
+  },
+  "info": {
+    "social": "SOCIAL",
+    "location": "CURRENT LOCATION",
+    "phone": "PHONE",
+    "email": "EMAIL"
+  }
+}

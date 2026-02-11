@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Home",
+    "work": "Портфолио",
+    "contact": "Contact",
+    "theme": ["Light" , "Dark"],
+    "menu": "Navigate Here"
+  },
+  "footer": {
+    "footer_title": "МАРКЕТИНГ",
+    "copyright": "© 2024 ALL RIGHTS RESERVED",
+    "backToTop": "GO BACK TO TOP"
+  }
+}
