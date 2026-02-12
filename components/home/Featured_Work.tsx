@@ -3,10 +3,10 @@ import { motion, Variants } from 'framer-motion';
 import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import { projects } from '@/data/portfolio.data';
+import { getProjects } from '@/data/portfolio.data';
 
 interface FeaturedWorkProps {
-    dict: any; // Changed from { [key: string]: unknown }
+    dict: any;
     lang: string;
 }
 
@@ -19,6 +19,9 @@ const FeaturedWork = ({ dict, lang }: FeaturedWorkProps) => {
             transition: { duration: 1, ease: "easeOut" }
         }
     };
+
+    // ✅ Get projects for current locale
+    const projects = React.useMemo(() => getProjects(lang as any), [lang]);
 
     return (
         <div className="py-16 px-3 md:px-10">

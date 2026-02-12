@@ -7,31 +7,31 @@
   "year": "ГОД",
   "category": "КАТЕГОРИЯ",
   "liveProject": "ЖИВОЙ ПРОЕКТ",
-  "category_type": ["Корпоративный сайт"],
+  "category_type": ["Korporativ sayt"],
   "thompson": {
     "category": 0,
     "client": "Thompson Window Film",
-    "description": "Thompson Window Film — современный корпоративный сайт услуг защитных пленок",
+    "description": "Thompson Window Film — himoya plyonkasi xizmatlari uchun zamonaviy korporativ sayt",
     "sections": [
       {
-        "title": "Дизайн",
-        "desc": "Дизайн сайта подчёркивает надёжность и профессионализм компании. Чистая структура, крупные заголовки и визуальные блоки помогают быстро понять услуги. Цветовая гамма соответствует автомобильной и технической тематике. Дизайн не отвлекает и фокусирует внимание на выгодах услуг."
+        "title": "Dizayn",
+        "desc": "Sayt dizayni kompaniyaning ishonchliligi va professional darajasini ko‘rsatishga qaratilgan. Toza layout, katta sarlavhalar va vizual bloklar orqali xizmatlar oson tushuniladi. Ranglar avtomobil va texnik xizmatlar mavzusiga mos tanlangan. Dizayn foydalanuvchini chalg‘itmaydi va asosiy e’tiborni xizmatlarning foydasiga qaratadi."
       },
       {
-        "title": "Техническая реализация",
-        "desc": "Сайт реализован с упором на быструю загрузку и стабильность. Полностью адаптивный — корректно работает на компьютерах, планшетах и мобильных устройствах. Навигация логичная и удобная. Кодовая структура чистая и подготовлена для дальнейшего масштабирования."
+        "title": "Texnik yechim",
+        "desc": "Sayt tezkor ishlash va barqarorlik tamoyillari asosida ishlab chiqilgan. To‘liq responsiv — desktop, planshet va mobil qurilmalarda mukammal ishlaydi. Navigatsiya mantiqiy tuzilgan: xizmatlar, texnologiyalar va aloqa bo‘limlari tez topiladi. Kod strukturasi toza va keyinchalik kengaytirish uchun qulay."
       },
       {
-        "title": "Маркетинг",
-        "desc": "Контент ориентирован на продажи и выгоды клиента. Услуги объясняются через пользу:\n— защита от ультрафиолета\n— комфорт внутри салона\n— сохранение стоимости автомобиля и недвижимости\nБлоки связи и консультации стимулируют обращение."
+        "title": "Marketing",
+        "desc": "Kontent sotuvga yo‘naltirilgan va mijoz manfaatiga asoslangan. Xizmatlar texnik atamalar bilan emas, balki foyda orqali tushuntirilgan:\n— ultrabinafsha nurlardan himoya\n— ichki qulaylik\n— avtomobil va bino qiymatini saqlash\nAloqa va bepul konsultatsiya bloklari mijozni tezda bog‘lanishga undaydi."
       },
       {
-        "title": "Удобство для клиента",
-        "desc": "Сайт максимально удобен для клиента. Пользователь быстро выбирает услугу, понимает её преимущества и связывается с компанией. Вся важная информация доступна и понятна."
+        "title": "Mijoz qulayligi",
+        "desc": "Sayt oddiy foydalanuvchi uchun maksimal darajada qulay. Mijoz xizmatni tez tanlaydi, foydasini tushunadi va bog‘lanadi. Keraksiz murakkablik yo‘q. Manzil, ish vaqti va aloqa ma’lumotlari aniq ko‘rsatilgan."
       },
       {
-        "title": "Ценность для бизнеса",
-        "desc": "Сайт работает как онлайн-продавец: усиливает имидж бренда, профессионально презентует услуги и привлекает новых клиентов."
+        "title": "Biznes qiymati",
+        "desc": "Bu sayt kompaniya uchun onlayn sotuvchi vazifasini bajaradi. U brend imijini mustahkamlaydi, xizmatlarni professional tarzda namoyish qiladi va yangi mijozlar oqimini ta’minlashga xizmat qiladi."
       }
     ]
   }

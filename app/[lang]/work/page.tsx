@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import { motion, Variants } from "framer-motion";
-import { projects } from "@/data/portfolio.data";
+import { getProjects } from "@/data/portfolio.data";
 import Link from "next/link";
 import Image from "next/image";
 import { useParams } from "next/navigation";
@@ -15,7 +15,6 @@ const fadeInScale: Variants = {
     }
 };
 
-// ✅ Interface qo'shildi
 interface WorkDict {
     period: string;
     title: string;
@@ -26,21 +25,25 @@ export default function WorkPage() {
     const params = useParams();
     const lang = params?.lang as string || 'en';
 
-    // ✅ Type to'g'rilandi
     const [dict, setDict] = React.useState<WorkDict | null>(null);
+    const [projects, setProjects] = React.useState<any[]>([]);
 
     React.useEffect(() => {
+        // Load dictionary
         import(`@/dictionaries/work/${lang}.json`).then((module) => {
             setDict(module.default);
         });
+
+        // Load projects for current locale
+        const localizedProjects = getProjects(lang as any);
+        setProjects(localizedProjects);
     }, [lang]);
 
-    if (!dict) return null;
+    if (!dict || projects.length === 0) return null;
 
     return (
         <div>
             <div className="flex w-full h-[70vh] justify-end items-center flex-col font-inter-tight font-bold text-7xl sm:text-9xl">
-                {/* ✅ dict.period endi to'g'ri ishlaydi */}
                 <div className="text-[18px] mb-5 dark:text-white/60 text-black/60 font-instrument-sans">
                     {dict.period}
                 </div>

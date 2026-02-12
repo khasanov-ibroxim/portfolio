@@ -7,31 +7,31 @@
   "year": "YEAR",
   "category": "CATEGORY",
   "liveProject": "LIVE PROJECT",
-  "category_type": ["Корпоративный сайт"],
+  "category_type": ["Corporate website"],
   "thompson": {
     "category": 0,
     "client": "Thompson Window Film",
-    "description": "Thompson Window Film — современный корпоративный сайт услуг защитных пленок",
+    "description": "Thompson Window Film — a modern corporate website for window film services",
     "sections": [
       {
-        "title": "Дизайн",
-        "desc": "Дизайн сайта подчёркивает надёжность и профессионализм компании. Чистая структура, крупные заголовки и визуальные блоки помогают быстро понять услуги. Цветовая гамма соответствует автомобильной и технической тематике. Дизайн не отвлекает и фокусирует внимание на выгодах услуг."
+        "title": "Design",
+        "desc": "The design emphasizes the company’s reliability and professionalism. A clean layout, strong headings, and visual sections help users quickly understand the services. The color palette fits the automotive and technical industry. The design stays focused on service value without distractions."
       },
       {
-        "title": "Техническая реализация",
-        "desc": "Сайт реализован с упором на быструю загрузку и стабильность. Полностью адаптивный — корректно работает на компьютерах, планшетах и мобильных устройствах. Навигация логичная и удобная. Кодовая структура чистая и подготовлена для дальнейшего масштабирования."
+        "title": "Technical solution",
+        "desc": "The website is built with a focus on performance and stability. It is fully responsive across desktop, tablet, and mobile devices. Navigation is clear and intuitive, making services and contact information easy to find. The codebase is clean and scalable for future growth."
       },
       {
-        "title": "Маркетинг",
-        "desc": "Контент ориентирован на продажи и выгоды клиента. Услуги объясняются через пользу:\n— защита от ультрафиолета\n— комфорт внутри салона\n— сохранение стоимости автомобиля и недвижимости\nБлоки связи и консультации стимулируют обращение."
+        "title": "Marketing",
+        "desc": "The content is conversion-focused and benefit-driven. Services are explained through value:\n— UV protection\n— interior comfort\n— preserving vehicle and property value\nContact and consultation sections encourage quick interaction."
       },
       {
-        "title": "Удобство для клиента",
-        "desc": "Сайт максимально удобен для клиента. Пользователь быстро выбирает услугу, понимает её преимущества и связывается с компанией. Вся важная информация доступна и понятна."
+        "title": "Client experience",
+        "desc": "The website provides a smooth user experience. Clients can easily choose a service, understand its benefits, and contact the company. All essential information is clear and accessible."
       },
       {
-        "title": "Ценность для бизнеса",
-        "desc": "Сайт работает как онлайн-продавец: усиливает имидж бренда, профессионально презентует услуги и привлекает новых клиентов."
+        "title": "Business value",
+        "desc": "The website acts as an online sales tool, strengthening brand image, presenting services professionally, and generating new leads."
       }
     ]
   }

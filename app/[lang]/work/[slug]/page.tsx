@@ -2,13 +2,12 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
-import { getProjectBySlug, projects } from '@/data/portfolio.data';
+import { getProjects, getProjectBySlug } from '@/data/portfolio.data';
 import { notFound } from 'next/navigation';
 import { i18n, Locale } from '@/i18n-config';
 import ClientScrollAnimation from '@/components/ui/ClientScrollAnimation';
 import ClientAnimation from '@/components/ui/ClientAnimation';
 import { getDictionary } from "@/lib/dictionary";
-import {STRING} from "postcss-selector-parser";
 
 type PageProps = {
     params: Promise<{
@@ -17,13 +16,15 @@ type PageProps = {
     }>;
 }
 
-// ✅ CRITICAL: Return format must match [lang] and [slug] exactly
+// ✅ Generate static params for all locales and projects
 export async function generateStaticParams() {
     const params: Array<{ lang: string; slug: string }> = [];
 
-    // Generate for ALL combinations
+    // Get projects for any locale to get slugs (structure is same)
+    const baseProjects = getProjects('en');
+
     for (const locale of i18n.locales) {
-        for (const project of projects) {
+        for (const project of baseProjects) {
             params.push({
                 lang: locale,
                 slug: project.slug,
@@ -31,40 +32,33 @@ export async function generateStaticParams() {
         }
     }
 
-    // Debug log
     console.log('🚀 Generated Static Params:', params);
-
     return params;
 }
 
-// ✅ Disable dynamic params
 export const dynamicParams = false;
-
-// ✅ For static export
 export const dynamic = 'force-static';
 
 export default async function WorkDetailPage({ params }: PageProps) {
     const resolvedParams = await params;
     const { slug, lang } = resolvedParams;
-    const dict:[key: string]|any = await getDictionary(lang, 'work');
+    const dict:any = await getDictionary(lang, 'work');
 
     console.log('📄 Rendering page:', { lang, slug });
 
-    const project = getProjectBySlug(slug);
+    // ✅ Get project with current locale
+    const project = getProjectBySlug(slug, lang);
 
     if (!project) {
         notFound();
     }
 
-    // ✅ Math.random() ni render tashqarisida hisoblash
-    const getOtherProjects = () => {
-        return projects
-            .filter(p => p.slug !== slug)
-            .sort(() => Math.random() - 0.5)
-            .slice(0, 2);
-    };
-
-    const otherProjects = getOtherProjects();
+    // ✅ Get other projects in current locale
+    const allProjects = getProjects(lang);
+    const otherProjects = allProjects
+        .filter(p => p.slug !== slug)
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 2);
 
     return (
         <div className="min-h-screen">
@@ -165,7 +159,7 @@ export default async function WorkDetailPage({ params }: PageProps) {
             {/* More Works */}
             {otherProjects.length > 0 && (
                 <div className="container mx-auto px-5 pb-20">
-                    <h2 className="text-5xl font-bold mb-10">MORE WORKS</h2>
+                    <h2 className="text-5xl font-bold mb-10">{dict.moreWorks || 'MORE WORKS'}</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                         {otherProjects.map((work, index) => (
                             <ClientScrollAnimation key={work.id} delay={index * 0.1}>
