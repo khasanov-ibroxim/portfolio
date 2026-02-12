@@ -7,7 +7,8 @@ import { notFound } from 'next/navigation';
 import { i18n, Locale } from '@/i18n-config';
 import ClientScrollAnimation from '@/components/ui/ClientScrollAnimation';
 import ClientAnimation from '@/components/ui/ClientAnimation';
-import {getDictionary} from "@/lib/dictionary.ts";
+import { getDictionary } from "@/lib/dictionary";
+import {STRING} from "postcss-selector-parser";
 
 type PageProps = {
     params: Promise<{
@@ -45,7 +46,7 @@ export const dynamic = 'force-static';
 export default async function WorkDetailPage({ params }: PageProps) {
     const resolvedParams = await params;
     const { slug, lang } = resolvedParams;
-    const dict = await getDictionary(lang, 'work');
+    const dict:[key: string]|any = await getDictionary(lang, 'work');
 
     console.log('📄 Rendering page:', { lang, slug });
 
@@ -55,11 +56,15 @@ export default async function WorkDetailPage({ params }: PageProps) {
         notFound();
     }
 
-    // Get 2 random projects excluding current one
-    const otherProjects = projects
-        .filter(p => p.slug !== slug)
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 2);
+    // ✅ Math.random() ni render tashqarisida hisoblash
+    const getOtherProjects = () => {
+        return projects
+            .filter(p => p.slug !== slug)
+            .sort(() => Math.random() - 0.5)
+            .slice(0, 2);
+    };
+
+    const otherProjects = getOtherProjects();
 
     return (
         <div className="min-h-screen">
@@ -76,7 +81,7 @@ export default async function WorkDetailPage({ params }: PageProps) {
                     />
                 </div>
 
-                <div className="absolute inset-0  bg-black/70 flex items-end">
+                <div className="absolute inset-0 bg-black/70 flex items-end">
                     <div className="container mx-auto px-5 pb-20">
                         <ClientAnimation>
                             <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold text-white mb-6">
@@ -84,15 +89,15 @@ export default async function WorkDetailPage({ params }: PageProps) {
                             </h1>
                             <div className="flex flex-wrap gap-8 text-white">
                                 <div>
-                                    <p className="text-sm opacity-60 mb-1">{dict.client}</p>
+                                    <p className="text-sm opacity-60 mb-1">{dict.client || 'Client'}</p>
                                     <p className="text-xl font-bold">{project.client}</p>
                                 </div>
                                 <div>
-                                    <p className="text-sm opacity-60 mb-1">{dict.year}</p>
+                                    <p className="text-sm opacity-60 mb-1">{dict.year || 'Year'}</p>
                                     <p className="text-xl font-bold">{project.year}</p>
                                 </div>
                                 <div>
-                                    <p className="text-sm opacity-60 mb-1">{dict.category}</p>
+                                    <p className="text-sm opacity-60 mb-1">{dict.category || 'Category'}</p>
                                     <p className="text-xl font-bold">{project.category}</p>
                                 </div>
                                 {project.liveUrl !== "#" && (
@@ -104,7 +109,7 @@ export default async function WorkDetailPage({ params }: PageProps) {
                                             rel="noopener noreferrer"
                                             className="text-xl font-bold flex items-center gap-2 hover:opacity-70 transition"
                                         >
-                                            {dict.category} <ArrowUpRight size={20} />
+                                            {dict.visitSite || 'Visit Site'} <ArrowUpRight size={20} />
                                         </Link>
                                     </div>
                                 )}
