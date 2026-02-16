@@ -1,10 +1,11 @@
 import type {Metadata, Viewport} from "next";
-import {Instrument_Sans, Inter_Tight , Montserrat} from "next/font/google";
+import {Montserrat} from "next/font/google";
 import "./globals.css";
 import {ThemeProvider} from "../components/ThemeProvider";
 import AosAnimate from "@/components/AOS_animate";
 import SlowScroll from "@/components/SlowScroll";
 import Cursor from "@/components/cursor";
+import { ThemeScript } from "./theme-script";
 
 
 const montserrat = Montserrat({
@@ -40,6 +41,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html suppressHydrationWarning className="">
+        <head>
+            {/* ✅ Theme flash ni oldini olish */}
+            <ThemeScript />
+        </head>
         <body
             className={`${montserrat.variable} `}
             suppressHydrationWarning
