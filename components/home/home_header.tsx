@@ -1,4 +1,3 @@
-
 "use client"
 import React, { useEffect, useState } from 'react';
 import Image from "next/image";
@@ -25,9 +24,8 @@ const HomeHeader = ({ dict }) => {
         };
     }, []);
 
-    // ✅ Mobile da kam zoom, desktop da ko'proq
-    const maxScale = isMobile ? 1.1 : 1.3;
-    const scale = 1 + Math.min(scrollY / 3000, maxScale - 1);
+    // ✅ Mobile da zoom effekt o'chirilgan, faqat desktop da ishlaydi
+    const scale = isMobile ? 1 : 1 + Math.min(scrollY / 3000, 0.3);
 
     return (
         <>
@@ -48,7 +46,7 @@ const HomeHeader = ({ dict }) => {
                 </div>
             </div>
 
-            {/* ✅ TO'G'RILANGAN - Overflow muammosi hal qilindi */}
+            {/* ✅ Mobile da overflow yo'q, desktop da zoom bor */}
             <div className="w-full h-screen overflow-hidden">
                 <div
                     className="w-full h-full"
