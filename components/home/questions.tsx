@@ -104,7 +104,7 @@ const Questions = ({dict, lang}) => {
                 </div>
                 <div className="w-full flex items-center justify-center mt-10 flex-col">
                     <div
-                        className="w-[420px] h-[630px] lg:w-[350px] lg:h-[500px] rounded-[40%] overflow-hidden shadow-2xl">
+                        className="w-[100%] h-[630px] lg:w-[350px] lg:h-[500px] rounded-[40%] overflow-hidden shadow-2xl">
                         <Image
                             src={home_about_index}
                             alt="Profile"
