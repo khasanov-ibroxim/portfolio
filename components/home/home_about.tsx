@@ -25,13 +25,18 @@ import xumson_white from "@/assets/home/home_about/xumson_white.png"
 const HomeAbout = ({dict , lang}) => {
     const containerRef = useRef(null);
     const [isMobile, setIsMobile] = useState(false);
-    const {theme, setTheme} = useTheme();
-    console.log(theme)
+    const {theme} = useTheme();
+    const [mounted, setMounted] = useState(false);
 
     const {scrollYProgress} = useScroll({
         target: containerRef,
         offset: ["start end", "end start"]
     });
+
+    // ✅ Theme mount bo'lguncha kutish
+    useEffect(() => {
+        setMounted(true);
+    }, []);
 
     useEffect(() => {
         const checkMobile = () => setIsMobile(window.innerWidth < 768);
@@ -50,15 +55,36 @@ const HomeAbout = ({dict , lang}) => {
     const imageScale = useTransform(scrollYProgress, [0.2, 0.5, 0.7], [0.7, 1, 1]);
     const imageOpacity = useTransform(scrollYProgress, [0.2, 0.4, 0.6], [1, 1, 1]);
 
+    // ✅ Theme bo'yicha rasmlarni tanlash - mounted bo'lgandan keyin
     const companies = [
-        {name: 'stampa', logo: theme === "dark" ? stampa_black : stampa_white},
-        {name: 'yustex', logo: theme === "dark" ? yustex_black : yustex_white},
-        {name: 'zarhal', logo: theme === "dark" ? zarhal_black : zarhal_white},
-        {name: 'thompson', logo: theme === "dark" ? thompson_black : thompson_white},
-        {name: 'fandi', logo: theme === "dark" ? fandi_black : fandi_white},
-        {name: 'mas', logo: theme === "dark" ? mas_black : mas_white},
-        {name: 'xumson', logo: theme === "dark" ? xumson_black : xumson_white},
-
+        {
+            name: 'stampa',
+            logo: !mounted ? stampa_white : (theme === "dark" ? stampa_white : stampa_black)
+        },
+        {
+            name: 'yustex',
+            logo: !mounted ? yustex_white : (theme === "dark" ? yustex_white : yustex_black)
+        },
+        {
+            name: 'zarhal',
+            logo: !mounted ? zarhal_white : (theme === "dark" ? zarhal_white : zarhal_black)
+        },
+        {
+            name: 'thompson',
+            logo: !mounted ? thompson_white : (theme === "dark" ? thompson_white : thompson_black)
+        },
+        {
+            name: 'fandi',
+            logo: !mounted ? fandi_white : (theme === "dark" ? fandi_white : fandi_black)
+        },
+        {
+            name: 'mas',
+            logo: !mounted ? mas_white : (theme === "dark" ? mas_white : mas_black)
+        },
+        {
+            name: 'xumson',
+            logo: !mounted ? xumson_white : (theme === "dark" ? xumson_white : xumson_black)
+        },
     ];
 
     return (
@@ -161,9 +187,9 @@ const HomeAbout = ({dict , lang}) => {
                         </div>
 
                         <motion.a href={`/${lang}/work`}
-                            whileHover={{scale: 1.05}}
-                            whileTap={{scale: 0.95}}
-                            className=" relative overflow-hidden mt-10
+                                  whileHover={{scale: 1.05}}
+                                  whileTap={{scale: 0.95}}
+                                  className=" relative overflow-hidden mt-10
             font-inter-tight cursor-pointer
             border-2 border-border
             font-bold uppercase
@@ -190,54 +216,54 @@ const HomeAbout = ({dict , lang}) => {
                     </motion.div>
 
                     {/* Companies Carousel */}
-                    <div className="mt-16 sm:mt-20 md:mt-24 overflow-hidden">
-                        <motion.div
-                            className="
-      flex
-      gap-4 sm:gap-6 md:gap-8 lg:gap-16
-      overflow-visible
-      py-8   /* 👈 tepaga-pastga joy */
-    "
-                            animate={{
-                                x: [0, -1000],
-                            }}
-                            transition={{
-                                x: {
-                                    repeat: Infinity,
-                                    repeatType: "loop",
-                                    duration: 20,
-                                    ease: "linear",
-                                },
-                            }}
-                        >
-                            {[...companies, ...companies, ...companies].map((company, index) => {
-                                const rotateClass =
-                                    index % 2 === 0 ? "rotate-[5deg]" : "rotate-[-5deg]";
+                    {mounted && (
+                        <div className="mt-16 sm:mt-20 md:mt-24 overflow-hidden">
+                            <motion.div
+                                className="flex gap-4 sm:gap-6 md:gap-8 lg:gap-16 overflow-visible py-8"
+                                animate={{
+                                    x: [0, -1000],
+                                }}
+                                transition={{
+                                    x: {
+                                        repeat: Infinity,
+                                        repeatType: "loop",
+                                        duration: 20,
+                                        ease: "linear",
+                                    },
+                                }}
+                            >
+                                {[...companies, ...companies, ...companies].map((company, index) => {
+                                    const rotateClass =
+                                        index % 2 === 0 ? "rotate-[5deg]" : "rotate-[-5deg]";
 
-                                return (
-                                    <div
-                                        key={index}
-                                        className={`
-            flex-shrink-0
-            w-[100px] h-[100px]
-            xs:w-[120px] xs:h-[120px]
-            sm:w-[150px] sm:h-[150px]
-            md:w-[180px] md:h-[180px]
-            lg:w-[200px] lg:h-[200px]
-            bg-[#0A0A0A] dark:bg-white rounded-2xl
-            flex items-center justify-center
-            p-5
-            ${rotateClass}
-          `}
-                                    >
-          <span className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
-            <Image src={company.logo} alt={company.name}/>
-          </span>
-                                    </div>
-                                );
-                            })}
-                        </motion.div>
-                    </div>
+                                    return (
+                                        <div
+                                            key={`${company.name}-${index}`}
+                                            className={`
+                                                flex-shrink-0
+                                                w-[100px] h-[100px]
+                                                xs:w-[120px] xs:h-[120px]
+                                                sm:w-[150px] sm:h-[150px]
+                                                md:w-[180px] md:h-[180px]
+                                                lg:w-[200px] lg:h-[200px]
+                                                bg-[#0A0A0A] dark:bg-white rounded-2xl
+                                                flex items-center justify-center
+                                                p-5
+                                                transition-all duration-300
+                                                ${rotateClass}
+                                            `}
+                                        >
+                                            <Image
+                                                src={company.logo}
+                                                alt={company.name}
+                                                className="w-full h-auto object-contain"
+                                            />
+                                        </div>
+                                    );
+                                })}
+                            </motion.div>
+                        </div>
+                    )}
                 </div>
             </div>
         </>
