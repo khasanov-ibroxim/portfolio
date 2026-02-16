@@ -55,37 +55,24 @@ const HomeAbout = ({dict , lang}) => {
     const imageScale = useTransform(scrollYProgress, [0.2, 0.5, 0.7], [0.7, 1, 1]);
     const imageOpacity = useTransform(scrollYProgress, [0.2, 0.4, 0.6], [1, 1, 1]);
 
-    // ✅ Theme bo'yicha rasmlarni tanlash - mounted bo'lgandan keyin
+    // ✅ OPTION 1: Standard naming
+    // white.png = oq/yorug' logo (light theme uchun)
+    // black.png = qora/to'q logo (dark theme uchun)
     const companies = [
-        {
-            name: 'stampa',
-            logo: !mounted ? stampa_white : (theme === "dark" ? stampa_white : stampa_black)
-        },
-        {
-            name: 'yustex',
-            logo: !mounted ? yustex_white : (theme === "dark" ? yustex_white : yustex_black)
-        },
-        {
-            name: 'zarhal',
-            logo: !mounted ? zarhal_white : (theme === "dark" ? zarhal_white : zarhal_black)
-        },
-        {
-            name: 'thompson',
-            logo: !mounted ? thompson_white : (theme === "dark" ? thompson_white : thompson_black)
-        },
-        {
-            name: 'fandi',
-            logo: !mounted ? fandi_white : (theme === "dark" ? fandi_white : fandi_black)
-        },
-        {
-            name: 'mas',
-            logo: !mounted ? mas_white : (theme === "dark" ? mas_white : mas_black)
-        },
-        {
-            name: 'xumson',
-            logo: !mounted ? xumson_white : (theme === "dark" ? xumson_white : xumson_black)
-        },
+        {name: 'stampa', light: stampa_white, dark: stampa_black},
+        {name: 'yustex', light: yustex_white, dark: yustex_black},
+        {name: 'zarhal', light: zarhal_white, dark: zarhal_black},
+        {name: 'thompson', light: thompson_white, dark: thompson_black},
+        {name: 'fandi', light: fandi_white, dark: fandi_black},
+        {name: 'mas', light: mas_white, dark: mas_black},
+        {name: 'xumson', light: xumson_white, dark: xumson_black},
     ];
+
+    // Logo tanlash logikasi
+    const getCompanyLogo = (company: typeof companies[0]) => {
+        if (!mounted) return company.dark; // Default: qora logo
+        return theme === "dark" ? company.dark : company.light;
+    };
 
     return (
         <>
@@ -254,7 +241,7 @@ const HomeAbout = ({dict , lang}) => {
                                             `}
                                         >
                                             <Image
-                                                src={company.logo}
+                                                src={getCompanyLogo(company)}
                                                 alt={company.name}
                                                 className="w-full h-auto object-contain"
                                             />
