@@ -71,7 +71,7 @@ const HomeAbout = ({dict , lang}) => {
     // Logo tanlash logikasi
     const getCompanyLogo = (company: typeof companies[0]) => {
         if (!mounted) return company.dark; // Default: white fayl
-        return theme === "dark" ? company.dark : company.light;
+        return theme === "dark" ? company.light : company.dark;
     };
 
     return (
