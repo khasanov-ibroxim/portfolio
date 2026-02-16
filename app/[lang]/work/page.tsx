@@ -43,11 +43,11 @@ export default function WorkPage() {
 
     return (
         <div>
-            <div className="flex w-full h-[70vh] justify-end items-center flex-col font-inter-tight font-bold text-7xl sm:text-9xl">
+            <div className="flex w-full h-[70vh] justify-center md:justify-end items-center flex-col font-inter-tight font-bold text-7xl sm:text-9xl">
                 <div className="text-[18px] mb-5 dark:text-white/60 text-black/60 font-instrument-sans">
                     {dict.period}
                 </div>
-                <div className="font-inter-tight font-bold text-4xl sm:text-9xl text-center">
+                <div className="font-inter-tight font-bold text-4xl md:text-7xl lg:text-9xl text-center">
                     <motion.div
                         viewport={{ once: false, amount: 0.5 }}
                         initial={{ y: "100%", opacity: 0 }}

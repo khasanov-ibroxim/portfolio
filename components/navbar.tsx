@@ -69,7 +69,7 @@ const Navbar = ({ dict, lang }: NavbarProps) => {
                     ))}
                 </nav>
 
-                <div className="absolute bottom-10 text-[18px] uppercase font-bold flex flex-col justify-center items-center gap-5 sm:flex-row sm:right-[20px]">
+                <div className="absolute bottom-16 sm:bottom-10 text-[18px] uppercase font-bold flex flex-col justify-center items-center gap-5 sm:flex-row sm:right-[20px]">
                     {[{name:"Instagram" , href:"https://www.instagram.com/khasanov_ibroxim/"},
                         {name:"Telegram" , href:"https://t.me/Khasanov_ibroxim"},
                         {name:"WhatsApp" , href:"https://wa.me/998993045475"}]
