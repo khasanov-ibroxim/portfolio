@@ -42,7 +42,7 @@
           "Адаптивная верстка",
           "Кроссбраузерность"
         ],
-        "image": "/exp/1.png"
+        "image": "/exp/1.jpg"
       },
       {
         "id": 2,
@@ -57,7 +57,7 @@
           "Анимации",
           "Accessibility"
         ],
-        "image": "/exp/2.png"
+        "image": "/exp/2.jpg"
       },
       {
         "id": 3,
@@ -72,7 +72,7 @@
           "Code splitting",
           "Lighthouse"
         ],
-        "image": "/exp/3.png"
+        "image": "/exp/3.jpg"
       },
       {
         "id": 4,
@@ -87,7 +87,7 @@
           "JWT авторизация",
           "Обработка ошибок"
         ],
-        "image": "/exp/4.png"
+        "image": "/exp/4.jpg"
       },
       {
         "id": 5,
@@ -102,7 +102,7 @@
           "Open Graph",
           "SEO URL"
         ],
-        "image": "/exp/5.png"
+        "image": "/exp/5.jpg"
       },
       {
         "id": 6,
@@ -117,7 +117,7 @@
           "Права доступа",
           "Адаптивный интерфейс"
         ],
-        "image": "/exp/6.png"
+        "image": "/exp/6.jpg"
       }
     ]
   },

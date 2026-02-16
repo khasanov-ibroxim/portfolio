@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 import Image from "next/image";
-import home_header_img from "@/assets/home/home_header/home_header.png"
+import home_header_img from "@/assets/home/home_header/home_header.jpg"
 
 const HomeHeader = ({ dict }) => {
     const [scrollY, setScrollY] = useState(0);

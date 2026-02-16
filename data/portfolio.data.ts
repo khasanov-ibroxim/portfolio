@@ -1,24 +1,24 @@
 import {StaticImageData} from "next/image";
 import { Locale } from '@/i18n-config';
 
-import thompson_0 from "@/assets/work/thompson/thompson_0.jpg"
+import thompson_0 from "@/assets/work/thompson/thompson_0.webp"
 
 import oltiMato_0 from "@/assets/work/oltinMato/oltinMato_0.webp"
 import oltiMato_1 from "@/assets/work/oltinMato/oltinMato_1.webp"
 
-import zarhal_0 from "@/assets/work/zarhal/zarhal_0.png"
+import zarhal_0 from "@/assets/work/zarhal/zarhal_0.webp"
 
-import stampa_0 from "@/assets/work/stampa/stampa_0.png"
+import stampa_0 from "@/assets/work/stampa/stampa_0.webp"
 
-import akyus_0 from "@/assets/work/akyus/akyus_0.png"
+import akyus_0 from "@/assets/work/akyus/akyus_0.webp"
 
-import yustex_0 from "@/assets/work/yustex/yustex_0.png"
-import yustex_1 from "@/assets/work/yustex/yustex_1.png"
-import yustex_2 from "@/assets/work/yustex/yustex_2.png"
+import yustex_0 from "@/assets/work/yustex/yustex_0.webp"
+import yustex_1 from "@/assets/work/yustex/yustex_1.webp"
+import yustex_2 from "@/assets/work/yustex/yustex_2.webp"
 
-import chorkesar_0 from "@/assets/work/chorkesar/chorkesar_0.png"
+import chorkesar_0 from "@/assets/work/chorkesar/chorkesar_0.webp"
 
-import etbs_0 from "@/assets/work/etbs/etbs_0.png"
+import etbs_0 from "@/assets/work/etbs/etbs_0.webp"
 
 export type ProjectSection =
     | {
