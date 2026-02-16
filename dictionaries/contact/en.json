@@ -1,15 +1,18 @@
 {
-  "title": "SAY HELLO!",
-  "subtitle": "My creative spirit comes alive in the digital realm",
+  "title": "Contact",
+  "subtitle": "Have questions about a project or collaboration? Get in touch — let's discuss your idea and find the best solution.",
   "form": {
-    "title": "FILL THIS FORM OUT",
+    "title": "FILL OUT THIS FORM",
     "name": "Name",
-    "email": "Email",
+    "phone": "+998 XX XXX XX XX",
     "message": "Message",
-    "submit": "SEND EMAIL"
+    "submit": "SEND",
+    "submitting": "Sending...",
+    "success": "✅ Message sent successfully!",
+    "error": "❌ An error occurred. Please try again."
   },
   "info": {
-    "social": "SOCIAL",
+    "social": "SOCIAL NETWORKS",
     "location": "CURRENT LOCATION",
     "phone": "PHONE",
     "email": "EMAIL"

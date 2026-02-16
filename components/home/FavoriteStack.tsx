@@ -1,11 +1,11 @@
 "use client";
 import React from 'react';
 import Image from "next/image";
-import icon_1 from "@/assets/home/favorite/free-icon-uzbekistan-197416.png"
-import icon_2 from "@/assets/home/favorite/free-icon-russia-5315463.png"
-import icon_3 from "@/assets/home/favorite/free-icon-united-kingdom-9906532.png"
-import icon_4 from "@/assets/home/favorite/free-icon-turkey-6157597.png"
-import icon_5 from "@/assets/home/favorite/free-icon-france-197560.png"
+import icon_1 from "@/assets/home/favorite/react.png"
+import icon_2 from "@/assets/home/favorite/next.png"
+import icon_3 from "@/assets/home/favorite/git.png"
+import icon_4 from "@/assets/home/favorite/tailwind.png"
+
 
 
 const FavoriteStack = ({dict}) => {
@@ -32,18 +32,11 @@ const FavoriteStack = ({dict}) => {
             description: dict.favoriteStack.stack[2].description,
         },
         {
-            icon: <Image src={icon_5} className="w-12 h-12 rounded-2xl" alt="Favorite Stack Icon" />,
+            icon: <Image src={icon_4} className="w-12 h-12 rounded-2xl" alt="Favorite Stack Icon" />,
             stack: dict.favoriteStack.stack[3].stack,
             title: dict.favoriteStack.stack[3].title,
             proc:dict.favoriteStack.stack[3].proc,
             description: dict.favoriteStack.stack[3].description,
-        },
-        {
-            icon: <Image src={icon_4} className="w-12 h-12 rounded-2xl" alt="Favorite Stack Icon" />,
-            stack: dict.favoriteStack.stack[4].stack,
-            title: dict.favoriteStack.stack[4].title,
-            proc:dict.favoriteStack.stack[4].proc,
-            description: dict.favoriteStack.stack[4].description,
         },
 
     ];

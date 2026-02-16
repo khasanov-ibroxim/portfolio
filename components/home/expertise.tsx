@@ -18,79 +18,6 @@ interface ServiceProp {
 const Expertise = ({dict}) => {
     const [selectedService, setSelectedService] = useState<ServiceProp | null>(null);
 
-    const services: ServiceProp[] = [
-        {
-            id: 1,
-            number: "(1)",
-            title: "APP DESIGN",
-            description: "Craft intuitive navigation that makes features accessible. Choose layouts and graphics that fit your app's personality.",
-            price: "$3,999",
-            fullDescription: "App design is one my high end skill that i give to my customers.",
-            features: [
-                "Web Application Design",
-                "Responsive Design",
-                "Animation Effects"
-            ],
-            image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop"
-        },
-        {
-            id: 2,
-            number: "(2)",
-            title: "WEB DESIGN",
-            description: "Polish animations and microinteractions that add delight. Every detail matters when sculpting an web.",
-            price: "$2,999",
-            fullDescription: "Creating beautiful and functional websites that engage users.",
-            features: [
-                "Responsive Layouts",
-                "Modern UI/UX",
-                "SEO Optimization"
-            ],
-            image: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&h=600&fit=crop"
-        },
-        {
-            id: 3,
-            number: "(3)",
-            title: "FRAMER",
-            description: "The process involves building virtual 3D models and materials, setting lighting, and then rendering the final images.",
-            price: "$1,999",
-            fullDescription: "Professional Framer development and prototyping services.",
-            features: [
-                "Interactive Prototypes",
-                "3D Animations",
-                "Custom Components"
-            ],
-            image: "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=800&h=600&fit=crop"
-        },
-        {
-            id: 4,
-            number: "(4)",
-            title: "PHOTOGRAPHY PRO",
-            description: "With the click of a shutter, an image is imprinted that tells a story or makes a statement. an image is imprinted that tells a story or makes a statement.",
-            price: "$899",
-            fullDescription: "Professional photography services for all occasions.",
-            features: [
-                "Portrait Photography",
-                "Event Coverage",
-                "Product Photography"
-            ],
-            image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&h=600&fit=crop"
-        },
-        {
-            id: 5,
-            number: "(5)",
-            title: "MOTION GRAPHICS",
-            description: "The interplay between graphic elements, typography and movement opens up a world of creative possibilities. typography and movement.",
-            price: "$1,499",
-            fullDescription: "Dynamic motion graphics that bring your brand to life.",
-            features: [
-                "2D/3D Animation",
-                "Video Editing",
-                "Brand Animation"
-            ],
-            image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&h=600&fit=crop"
-        }
-    ];
-    console.log(dict)
     return (
         <div className="py-16 px-3 md:px-10 bg  min-h-screen">
             {/* Header */}
@@ -203,17 +130,6 @@ const Expertise = ({dict}) => {
                                     </div>
                                 </div>
 
-                                {/* Buttons */}
-                                <div className="flex flex-wrap gap-4">
-                                    <a href={"https://t.me/DrTex"} target={"_blank"} className="px-8 py-4 dark:bg-white dark:text-black bg-black text-white rounded-full font-semibold hover:bg-black/80 transition-colors">
-                                        Telegram
-                                    </a>
-                                    <a href={"mailto:shams.yokubov@mail.ru"} target={"_blank"}
-                                       className="px-8 py-4 border-2 dark:border-white border-black rounded-full font-semibold dark:hover:bg-white
-                                       hover:bg-black hover:text-white dark:hover:text-black transition-colors">
-                                        E-MAIL
-                                    </a>
-                                </div>
                             </div>
                         </motion.div>
                     </motion.div>

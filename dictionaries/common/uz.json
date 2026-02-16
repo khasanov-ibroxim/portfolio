@@ -1,14 +1,14 @@
 {
   "nav": {
-    "home": "Главная",
-    "work": "Портфолио",
-    "contact": "Контакты",
-    "theme": ["Kun" , "Tun"],
-    "menu": "Меню"
+    "home": "Bosh sahifa",
+    "work": "Portfolio",
+    "contact": "Bog‘lanish",
+    "theme": ["Yoriq" , "Qorong'u"],
+    "menu": "Menyu"
   },
   "footer": {
-    "footer_title": "МАРКЕТИНГ",
-    "copyright": "© 2024 ВСЕ ПРАВА ЗАЩИЩЕНЫ",
-    "backToTop": "ВЕРНУТЬСЯ НАВЕРХ"
+    "footer_title": "Veb dasturchi",
+    "copyright": "© 2025 Barcha huquqlar himoyalangan",
+    "backToTop": "Yuqoriga qaytish"
   }
 }

@@ -33,7 +33,7 @@ const FeaturedWork = ({ dict, lang }: FeaturedWorkProps) => {
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: "easeInOut" }}
                     >
-                        FEATURED
+                        {dict.portfolio.left[0]}
                     </motion.div>
                     <motion.div
                         viewport={{ once: false, amount: 0.5 }}
@@ -42,17 +42,16 @@ const FeaturedWork = ({ dict, lang }: FeaturedWorkProps) => {
                         transition={{ duration: 0.8, ease: "easeInOut" }}
                         className="overflow-hidden"
                     >
-                        WORK
+                        {dict.portfolio.left[1]}
                     </motion.div>
                 </div>
                 <div className="font-inter-tight text-2xl w-full md:w-2/4">
-                    My creative spirit comes alive in the digital realm. With nimble fingers flying across the keyboard,
-                    I craft clear experiences out of nothing but ones and zeroes.
+                    {dict.portfolio.right}
                 </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 mt-20 gap-5">
-                {projects.map((project) => (
+                {projects.slice(0 , 4).map((project) => (
                     <motion.div
                         key={project.id}
                         initial="hidden"
@@ -69,9 +68,7 @@ const FeaturedWork = ({ dict, lang }: FeaturedWorkProps) => {
                                 <Image
                                     src={project.thumbnail}
                                     alt={project.title}
-                                    width={800}
-                                    height={600}
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    className="w-[100%] h-[400px] object-cover transition-transform duration-500 group-hover:scale-110"
                                 />
                             </div>
                             <div className="flex justify-between items-center w-full px-5 py-5">
@@ -91,6 +88,35 @@ const FeaturedWork = ({ dict, lang }: FeaturedWorkProps) => {
                     </motion.div>
                 ))}
             </div>
+            {projects.length > 4 &&
+                <div className={"w-full mt-8 flex justify-center items-center"}>
+                    <Link href={`/${lang}/work/`}
+                          className=" relative overflow-hidden mt-10
+            font-inter-tight cursor-pointer
+            border-2 border-border
+            font-bold uppercase
+            sm:text-[18px]
+            sm:py-4 sm:px-14
+            text-[14px]
+            py-1 px-4
+            rounded-3xl
+            dark:bg-transparent bg-black
+            text-white
+            transition-colors duration-500
+
+            before:absolute before:inset-0 before:z-0
+            dark:before:bg-white before:bg-white
+            before:origin-bottom before:scale-y-0
+            before:transition-transform before:duration-500
+            before:content-['']
+
+            hover:before:scale-y-100
+            dark:hover:text-black hover:text-black"
+                    >
+                        <span className={"relative z-10"}>{dict.moreWorks}</span>
+                    </Link>
+                </div>
+            }
         </div>
     );
 };

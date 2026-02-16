@@ -1,13 +1,13 @@
 {
-  "title": "SELECTED WORKS",
-  "period": "(2021 - 2024)",
+  "title": ["SELECTED" , "WORKS"],
+  "period": "(2021 – 2026)",
   "moreWorks": "MORE WORKS",
   "visitSite": "VISIT SITE",
   "client": "CLIENT",
   "year": "YEAR",
   "category": "CATEGORY",
   "liveProject": "LIVE PROJECT",
-  "category_type": ["Corporate website"],
+  "category_type": ["Corporate website" , "e-commerce and brand website"],
   "thompson": {
     "category": 0,
     "client": "Thompson Window Film",
@@ -32,6 +32,195 @@
       {
         "title": "Business value",
         "desc": "The website acts as an online sales tool, strengthening brand image, presenting services professionally, and generating new leads."
+      }
+    ]
+  },
+  "oltinMato": {
+    "category": 0,
+    "client": "Oltin Mato Group",
+    "description": "Oltin Mato Group— business website for textile and sewing services",
+    "sections": [
+      {
+        "title": "Design",
+        "desc": "The design presents textile and sewing services clearly and professionally. Visual blocks, service sections, and contact information are placed logically. The color scheme fits the textile industry and avoids distracting the user."
+      },
+      {
+        "title": "Technical solution",
+        "desc": "The website is built with an adaptive codebase — fully responsive on mobile, tablet, and desktop. It loads quickly and has logical navigation. The technical solution is clean and extendable for future enhancements."
+      },
+      {
+        "title": "Marketing",
+        "desc": "Marketing content is placed to encourage users to choose the service: descriptions of textile products, sewing services, and any additional offerings. Customer benefits are clearly outlined."
+      },
+      {
+        "title": "Client experience",
+        "desc": "User experience: clear structure, easy navigation through services, and prominent contact information make the site user-friendly. Contact forms are easy to locate."
+      },
+      {
+        "title": "Business value",
+        "desc": "The website creates online business opportunities: attracting new customers, showcasing services, and strengthening brand image. It enables direct contact with the company."
+      }
+    ]
+  },
+  "zarhal": {
+    "category": 0,
+    "client": "Zarhal Group",
+    "description": "ZARHAL GROUP — business website of a textile and fabric manufacturer",
+    "sections": [
+      {
+        "title": "Design",
+        "desc": "The design reflects the full cycle of textile production and product range. The visual structure is simple and clear, enabling users to navigate quickly to the product catalog or company information."
+      },
+      {
+        "title": "Technical solution",
+        "desc": "The technical solution is focused on responsiveness and speed: navigation is logical, blocks are structured — allowing users to access sections smoothly. The code structure is clean and scalable."
+      },
+      {
+        "title": "Marketing",
+        "desc": "From a marketing perspective, the site provides information about production benefits, ecological practices, and international standards, building a sense of quality and reliability."
+      },
+      {
+        "title": "Client experience",
+        "desc": "For users, the site is convenient: the product catalog, company background, production process, and contacts are well-organized and easily accessible."
+      },
+      {
+        "title": "Business value",
+        "desc": "The site serves as an online representation of the company: providing detailed information on production capabilities, product range, and supply directions. This aids in business expansion and easier client communication."
+      }
+    ]
+  },
+  "stampa": {
+    "category": 0,
+    "client": "Stampa",
+    "description": "Stampa — professional textile dyeing and digital printing services website",
+    "sections": [
+      {
+        "title": "Design",
+        "desc": "The design focuses on presenting textile services and products clearly. The homepage, services sections, and product visuals are structured logically. The color palette and visuals relate to fabrics and printing services."
+      },
+      {
+        "title": "Technical solution",
+        "desc": "The site is fully responsive, adapts to various screen sizes, and has logical navigation. Sections are well-organized, allowing users to reach needed content quickly. The codebase is clean and extendable."
+      },
+      {
+        "title": "Marketing",
+        "desc": "Marketing content focuses on fabric dyeing and digital printing services. Benefits like color accuracy, quality, and technology are explained clearly to encourage client interest."
+      },
+      {
+        "title": "Client experience",
+        "desc": "User experience is straightforward: services, products, and contact information are easy to find. Contact forms and details are clearly displayed."
+      },
+      {
+        "title": "Business value",
+        "desc": "The site serves as the company’s online showcase — clearly presenting fabric dyeing and digital printing services. It supports business growth and attracting new clients."
+      }
+    ]
+  },
+  "akyus": {
+    "category": 1,
+    "client": "Akyus",
+    "description": "AKYUS — modern fashion brand website for knitwear",
+    "sections": [
+      {
+        "title": "Design",
+        "desc": "The design follows a clean, minimalist fashion style. Large visuals, professional photography, and white space highlight the brand’s aesthetic. The focus remains on color, fabric texture, and fit of the garments."
+      },
+      {
+        "title": "Technical solution",
+        "desc": "The website is fast, responsive, and stable across all devices. Navigation is intuitive — products, collections, About, and contacts are easy to access. The codebase is structured for future e-commerce growth."
+      },
+      {
+        "title": "Marketing",
+        "desc": "The marketing approach communicates the brand values clearly: comfort, style, and confidence. Hero sections, slogans, and collection previews create a strong emotional connection with customers."
+      },
+      {
+        "title": "Client experience",
+        "desc": "The user experience is smooth and intuitive. Collections are visually clear, and products are shown in real-life styling. Contact and ordering flows are simple and user-friendly."
+      },
+      {
+        "title": "Business value",
+        "desc": "The website acts as the digital face of the AKYUS brand, professionally showcasing products, strengthening brand trust, and supporting online sales."
+      }
+    ]
+  },
+  "yustex": {
+    "category": 1,
+    "client": "Yustex",
+    "description": "YUSTEX — professional textile manufacturing website for knitwear",
+    "sections": [
+      {
+        "title": "Design",
+        "desc": "The design emphasizes production scale, quality, and reliability. Clean layouts, strong typography, and real factory visuals communicate professionalism and trust."
+      },
+      {
+        "title": "Technical solution",
+        "desc": "The website is fast, responsive, and stable across all devices. Complex content such as production stages, certifications, and technologies is well structured. The codebase supports future scalability."
+      },
+      {
+        "title": "Marketing",
+        "desc": "The marketing strategy focuses on trust and transparency. Partner brands, equipment, international certifications, and quality control processes strengthen B2B credibility."
+      },
+      {
+        "title": "Client experience",
+        "desc": "The user journey is clear: production → quality control → products → contact. Call-to-action elements are visible and easy to use."
+      },
+      {
+        "title": "Business value",
+        "desc": "The website acts as a digital showcase and business tool, attracting new brands, partners, and long-term collaborations."
+      }
+    ]
+  },
+  "chorkesar": {
+    "category": 1,
+    "client": "Chorkesar Broyler",
+    "description": "Chorkesar Broyler — corporate website for poultry meat and egg production",
+    "sections": [
+      {
+        "title": "Design",
+        "desc": "The design focuses on naturalness, cleanliness, and trust. Light colors, green accents, and real product photography highlight the brand’s eco-friendly and safe production approach."
+      },
+      {
+        "title": "Technical solution",
+        "desc": "The website is fast, responsive, and stable. Even with rich content (products, metrics, production stages), the structure remains clear. Navigation is simple, and CTA buttons are easy to find."
+      },
+      {
+        "title": "Marketing",
+        "desc": "The marketing approach is trust- and data-driven. Production volumes, quality control, eco standards, and certifications clearly demonstrate the company’s scale and reliability."
+      },
+      {
+        "title": "Client experience",
+        "desc": "The user journey is clear: company → products → production quality → contact. Content is easy to read, supported by strong visuals."
+      },
+      {
+        "title": "Business value",
+        "desc": "The website serves as a digital trust platform for the Chorkesar Broyler brand, supporting partner acquisition, distribution, and customer engagement."
+      }
+    ]
+  },
+  "etbs": {
+    "category": 1,
+    "client": "ETBS",
+    "description": "ETBS Engineering — corporate website for industrial and engineering solutions",
+    "sections": [
+      {
+        "title": "Design",
+        "desc": "The design emphasizes industrial scale, reliability, and engineering expertise. Dark tones, technical visuals, and real project imagery reinforce a strong B2B professional identity."
+      },
+      {
+        "title": "Technical solution",
+        "desc": "The website is fast, stable, and fully responsive. Complex technical content is logically structured. Navigation is clear, CTA buttons are well positioned, and the codebase supports future expansion."
+      },
+      {
+        "title": "Marketing",
+        "desc": "The marketing strategy focuses on trust and expertise. High-tech solutions, environmental responsibility, and energy efficiency are clearly communicated — key decision factors for B2B clients."
+      },
+      {
+        "title": "Client experience",
+        "desc": "The user journey is clear: problem → technological solution → benefits → contact. Contact forms and call-to-action elements are easy to access."
+      },
+      {
+        "title": "Business value",
+        "desc": "The website acts as a digital sales and presentation tool, attracting new industrial projects and long-term partnerships."
       }
     ]
   }

@@ -2,7 +2,7 @@
 // components/navbar.tsx
 "use client";
 import React, { useState } from "react";
-import { Mail, X, ArrowUpRight } from "lucide-react";
+import { X, ArrowUpRight } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";  // ✅ Import
 import { motion } from "framer-motion";
@@ -70,7 +70,9 @@ const Navbar = ({ dict, lang }: NavbarProps) => {
                 </nav>
 
                 <div className="absolute bottom-10 text-[18px] uppercase font-bold flex flex-col justify-center items-center gap-5 sm:flex-row sm:right-[20px]">
-                    {[{name:"Instagram" , href:"https://www.instagram.com/yokubovsmarketing?igsh=OXpoNzh6a3d1bXN3&utm_source=qr"}, {name:"Telegram" , href:"https://t.me/DrTex"}, {name:"Facebook" , href:"https://www.facebook.com/share/1DQEYrQj6o/?mibextid=wwXIfr"}]
+                    {[{name:"Instagram" , href:"https://www.instagram.com/khasanov_ibroxim/"},
+                        {name:"Telegram" , href:"https://t.me/Khasanov_ibroxim"},
+                        {name:"WhatsApp" , href:"https://wa.me/998993045475"}]
                         .map((item,index) => (
                             <Link
                                 key={index}

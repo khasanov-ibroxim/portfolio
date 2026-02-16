@@ -1,17 +1,20 @@
 {
-  "title": "СКАЖИТЕ ПРИВЕТ!",
-  "subtitle": "Мой творческий дух оживает в цифровом мире",
+  "title": "Bog'lanish",
+  "subtitle": "Loyiha yoki hamkorlik bo'yicha savollaringiz bormi? Menga yozing — g'oyangizni muhokama qilamiz va eng yaxshi yechimni topamiz.",
   "form": {
-    "title": "ЗАПОЛНИТЕ ЭТУ ФОРМУ",
-    "name": "Имя",
-    "email": "Электронная почта",
-    "message": "Сообщение",
-    "submit": "ОТПРАВИТЬ"
+    "title": "USHBU FORMANI TO'LDIRING",
+    "name": "Ism",
+    "phone": "+998 XX XXX XX XX",
+    "message": "Xabar",
+    "submit": "YUBORISH",
+    "submitting": "Yuborilmoqda...",
+    "success": "✅ Xabar muvaffaqiyatli yuborildi!",
+    "error": "❌ Xatolik yuz berdi. Qaytadan urinib ko'ring."
   },
   "info": {
-    "social": "СОЦИАЛЬНЫЕ СЕТИ",
-    "location": "ТЕКУЩЕЕ МЕСТОПОЛОЖЕНИЕ",
-    "phone": "ТЕЛЕФОН",
-    "email": "ЭЛЕКТРОННАЯ ПОЧТА"
+    "social": "IJTIMOIY TARMOQLAR",
+    "location": "HOZIRGI JOYLASHUV",
+    "phone": "TELEFON",
+    "email": "ELEKTRON POCHTA"
   }
 }

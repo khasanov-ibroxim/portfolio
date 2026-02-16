@@ -1,326 +1,246 @@
 {
+  "moreWorks": "YANADA KO‘PROQ ISHLAR",
   "hero": {
     "name": [
       "Khasanov",
       "Ibroxim"
     ],
-    "status": "Открыт к сотрудничеству",
-    "location": "Ташкент, Узбекистан",
-    "title": "Маркетолог стратег"
+    "status": "Hamkorlikka ochiq",
+    "location": "Toshkent, Oʻzbekiston",
+    "title": "Web Dasturchi"
+  },
+  "portfolio": {
+    "left": ["Ishlar", "to‘plami"],
+    "right": "Mening ijodiy ruhim raqamli olamda jonlanadi. Barmoqlarim klaviatura uzra chaqqon harakatlanar ekan, men faqat birliklar va nollardan iborat bo‘lgan dunyodan aniq va tushunarli tajribalarni yarataman."
   },
   "about": {
     "title": [
-      "Стратегия Подход",
-      "Экспорт"
+      "Yechim Loyihalash",
+      "Dasturlash"
     ],
-    "subtitle": "Я работаю с текстильным бизнесом там, где маркетинг перестаёт быть презентацией и начинается влияние на цифры, контракты и ответственность. Я не теоретик и не «маркетолог по охватам» — я понимаю производство, себестоимость и экспортную реальность. Моя работа начинается с диагностики бизнеса и заканчивается ростом выручки, а не отчётами по лайкам.",
+    "subtitle": "Men zamonaviy va qulay raqamli mahsulotlar yaratishga ixtisoslashgan frontend dasturchiman. Asosan React.js va Next.js texnologiyalari bilan ishlayman. Har bir loyihada foydalanuvchi tajribasi, toza kod va samaradorlikni birinchi o‘ringa qo‘yaman.",
     "description": [
-      "Более 10 лет я занимаюсь развитием текстильных компаний и брендов, выстраиваю маркетинг под реальные бизнес-цели и сопровождаю экспорт продукции. Я участвовал в переговорах с партнёрами из Европы, США, Турции и Азии, работал с фабриками при выходе на внешние рынки и международные выставки, поэтому говорю с бизнесом на языке цифр, процессов и контрактов.",
-      "С 2019 года я возглавляю World Textile Marketing Agency — агентство, которое специализируется исключительно на лёгкой промышленности. Мы выстраиваем маркетинг как систему: позиционирование, продажи и выход на новые рынки, без «креатива ради креатива», с фокусом на устойчивый и прогнозируемый рост бизнеса."
+      "2020-yildan buyon sohada faoliyat yuritib kelaman va shu vaqt davomida turli yo‘nalishlarda ko‘plab loyihalarni amalga oshirdim.",
+      "Dizaynni aniq yechimga aylantirish, murakkab g‘oyalarni sodda va tushunarli interfeys orqali ifodalash — mening asosiy yondashuvim. Har bir loyiha ustida mas’uliyat bilan ishlayman va natija real biznes yoki foydalanuvchi ehtiyojiga xizmat qilishini maqsad qilaman."
     ],
-    "btn": "Дипломы"
+    "btn": "Portfolio"
   },
   "expertise": {
-    "title": "Экспертность",
-    "key_fueters": "Основные направления",
+    "title": "Mutaxassislik",
+    "key_fueters": "Asosiy faoliyat yo‘nalishlari",
     "content": [
       {
         "id": 1,
         "number": "(1)",
-        "title": "Аудит",
-        "description": "Провожу глубокий разбор бизнеса, маркетинга и продаж.\nНахожу точки потерь, системные ошибки и скрытые возможности роста.\nАудит даёт чёткое понимание, что именно мешает бизнесу зарабатывать больше.",
-        "price": "Только по запросу ",
-        "fullDescription": "Я разбираю маркетинг, продажи и стратегию, чтобы точно понять, где бизнес теряет деньги и что мешает росту выручки.",
+        "title": "Frontend Development",
+        "description": "Zamonaviy, tezkor va barcha qurilmalarga mos foydalanuvchi interfeyslarini ishlab chiqish.",
+        "price": "Faqat so'rov bo'yicha",
+        "fullDescription": "Men dizayn va funksionallikni uyg‘unlashtirgan holda yuqori sifatli frontend yechimlar yarataman. Toza kod, qayta ishlatiladigan komponentlar va yuqori samaradorlik har bir loyihada asosiy ustuvorlik hisoblanadi.",
         "features": [
-          "Аудит маркетинга и продаж",
-          "Анализ позиционирования и ценности",
-          "Выявление точек роста выручки"
+          "HTML5, CSS3, JavaScript (ES6+)",
+          "React.js, Next.js",
+          "Responsive dizayn",
+          "Cross-browser moslik"
         ],
-        "image": "/exp/audit.jpg"
+        "image": "/exp/1.png"
       },
       {
         "id": 2,
         "number": "(2)",
-        "title": "Анализ рынка",
-        "description": "Изучаю рынок, конкурентов и поведение клиентов.\nОпределяю реальный спрос, ценовые коридоры и точки дифференциации.\nАнализ рынка — основа для сильных решений и устойчивого роста.",
-        "price": "Только по запросу ",
-        "fullDescription": "Анализ рынка — это основа всех стратегических решений.\nЯ изучаю спрос, конкурентов и логику выбора клиентов,\nчтобы бизнес принимал решения на основе фактов, а не ощущений.",
+        "title": "UI / UX Implementation",
+        "description": "Dizaynni foydalanuvchi uchun qulay va mantiqiy interfeysga aylantirish.",
+        "price": "Faqat so'rov bo'yicha",
+        "fullDescription": "Foydalanuvchi tajribasiga asoslangan interfeyslar yarataman. Dizaynlar nafaqat chiroyli, balki tushunarli va qulay bo‘lishiga e’tibor qarataman.",
         "features": [
-          "Анализ спроса и рыночных ниш",
-          "Оценка конкурентов и ценовых моделей",
-          "Определение точек дифференциации"
+          "Figma → Code",
+          "UX flow",
+          "Animatsiya va transitionlar",
+          "Accessibility (A11y)"
         ],
-        "image": "/exp/analiz.jpg"
+        "image": "/exp/2.png"
       },
       {
         "id": 3,
         "number": "(3)",
-        "title": "Продвижение продукции",
-        "description": "Выстраиваю стратегию продвижения, ориентированную на выручку, а не охваты.\nФормирую позиционирование, сообщения и каналы, которые приводят клиентов.\nМаркетинг как инструмент продаж, а не расход.",
-        "price": "Только по запросу",
-        "fullDescription": "Продвижение продукции — это не реклама ради охватов.\nЯ выстраиваю маркетинг, который приводит клиентов\nи напрямую влияет на выручку бизнеса.",
+        "title": "Performance & Optimization",
+        "description": "Web ilovalarning tezligi va samaradorligini oshirish.",
+        "price": "Faqat so'rov bo'yicha",
+        "fullDescription": "Sayt yuklanish tezligi foydalanuvchi tajribasi va SEO uchun muhim. Men optimallashtirish orqali tezkor va barqaror ishlaydigan web ilovalar yarataman.",
         "features": [
-          "тратегия продвижения и позиционирование",
-          "Сообщения и каналы продаж",
-          "Фокус на действиях, приносящих выручку"
+          "Lazy loading",
+          "Code splitting",
+          "Image optimization",
+          "Lighthouse optimizatsiyasi"
         ],
-        "image": "/exp/prodvijeniya.jpg"
+        "image": "/exp/3.png"
       },
       {
         "id": 4,
         "number": "(4)",
-        "title": "Экспорт продукции",
-        "description": "Помогаю подготовить бизнес к выходу на зарубежные рынки.\nАнализирую страны, требования, риски и точки входа.\nЭкспорт — это система, а не случайная сделка.",
-        "price": "Только по запросу ",
-        "fullDescription": "Экспорт продукции — это система, а не разовая сделка.\nЯ помогаю подготовить бизнес к выходу на внешние рынки,\nснизив риски и повысив шансы на устойчивые контракты.",
+        "title": "API Integration",
+        "description": "Frontend va backend o‘rtasida ishonchli integratsiya.",
+        "price": "Faqat so'rov bo'yicha",
+        "fullDescription": "Frontend qismini backend API’lar bilan bog‘lab, real ma’lumotlar bilan ishlaydigan web ilovalar yarataman.",
         "features": [
-          "Анализ стран и рынков сбыта",
-          "Оценка готовности продукта к экспорту",
-          "Формирование стратегии выхода на рынок"
+          "REST API",
+          "Axios / Fetch",
+          "Authentication (JWT)",
+          "Error handling"
         ],
-        "image": "/exp/eksport.jpg"
+        "image": "/exp/4.png"
       },
       {
         "id": 5,
         "number": "(5)",
-        "title": "Переговоры и сопровождение сделок",
-        "description": "Сопровождаю переговоры с партнёрами и покупателями.\nПомогаю выстроить позицию, аргументацию и защитить интересы бизнеса.\nРезультат — понятные условия и долгосрочные контракты.",
-        "price": "Только по запросу",
-        "fullDescription": "Переговоры — это точка, где решается судьба сделки.\nЯ сопровождаю бизнес на ключевых этапах общения с партнёрами,\nпомогая сохранить позицию, условия и результат.",
+        "title": "SEO Optimization",
+        "description": "Web saytlarni qidiruv tizimlari uchun optimallashtirish.",
+        "price": "Faqat so'rov bo'yicha",
+        "fullDescription": "SEO texnik va semantik jihatdan to‘g‘ri tuzilgan saytni talab qiladi. Men qidiruv tizimlarida yaxshi natija beradigan saytlar yarataman.",
         "features": [
-          "Подготовка к переговорам и стратегия позиции",
-          "Сопровождение ключевых переговоров",
-          "Контроль условий и фиксация договорённостей"
+          "Meta title & description",
+          "Semantic HTML",
+          "Open Graph",
+          "SEO-friendly URL"
         ],
-        "image": "/exp/peregavori.jpg"
+        "image": "/exp/5.png"
+      },
+      {
+        "id": 6,
+        "number": "(6)",
+        "title": "Admin Panel Development",
+        "description": "Biznes uchun qulay va funksional admin panellar yaratish.",
+        "price": "Faqat so'rov bo'yicha",
+        "fullDescription": "Admin panellar orqali ma’lumotlarni boshqarish, nazorat qilish va tahlil qilish imkoniyatini yarataman.",
+        "features": [
+          "Dashboard",
+          "CRUD tizimlari",
+          "Role & permission",
+          "Responsive admin panel"
+        ],
+        "image": "/exp/6.png"
       }
     ]
   },
   "motivation": {
-    "title": "АУДИТ",
-    "content": {
-      "title_top": [
-        "Я не начинаю с рекламы.",
-        "Я начинаю с диагноза."
-      ],
-      "item_1_title": "Большинство фабрик приходят, когда:",
-      "item_1_content": [
-        "продажи не растут",
-        "рынок изменился",
-        "старые каналы не работают",
-        "маркетинг стал расходом, а не инструментом"
-      ],
-      "title_2": [
-        "В таких случаях «креатив» не лечит.",
-        "Нужен маркетинговый аудит."
-      ],
-      "item_2_title": "Я разбираю бизнес по системе:",
-      "item_2_content": [
-        "PESTLE — что происходит с рынком и страной",
-        "SWOT — реальные сильные и слабые стороны",
-        "STP — кому вы на самом деле продаёте",
-        "воронка продаж — где теряются деньги",
-        "каналы и конкуренты — почему выбирают не вас",
-        "маркетинг-микс (4P / 6P+F) — где сломана логика"
-      ],
-      "item_3_title": "После аудита:",
-      "item_3_content": [
-        "появляется чёткая картина",
-        "уходят лишние действия",
-        "маркетинг становится управляемым",
-        "решения опираются на цифры, а не на «ощущения»"
-      ],
-      "title_3": [
-        "Я не продаю рекламу.",
-        "Я ставлю диагноз и предлагаю лечение, которое даёт результат."
-      ]
-    }
+    "title": "Motivatsiya",
+    "content": "Har bir loyiha men uchun faqat kod emas, balki mas’uliyatdir. Men har doim mukammal natijaga intilib, foydalanuvchi va biznes ehtiyojlarini birlashtirgan raqamli yechimlar yaratishga harakat qilaman. Doimiy o‘rganish, rivojlanish va sifat — mening asosiy motivatsiyam."
   },
   "experience": {
-    "title": "Опыт",
+    "title": "Tajriba",
     "content": [
       {
-        "period": "2019- по н.в.",
+        "period": "2022 - hozirgacha",
         "company": "WORLD TEXTILE MARKETING AGENCY",
-        "position": "Учредитель, Директор",
-        "description": [
-          ""
-        ]
+        "position": "Frontend dasturchi",
+        "description": "Asosan to‘qimachilik sohasidagi korxonalar uchun korporativ veb-saytlar yaratishga ixtisoslashganman. Kompaniyalarga o‘z mahsulotlarini samarali taqdim etish va raqamli muhitdagi ishtirokini kuchaytirishga yordam beradigan zamonaviy, qulay va yuqori samaradorlikka ega interfeyslar ishlab chiqaman."
       },
       {
-        "period": "2019",
-        "company": "«TPMA» при Ассоциации «Узтекстильпром»",
-        "position": "Главный специалист отдела маркетинга",
-        "description": [
-          "Анализ рынка, экспортных направлений и эффективности продвижения"
-        ]
+        "period": "2020 - hozirgacha",
+        "company": "Frilans",
+        "position": "Frilanser",
+        "description": "Turli sohalardagi mijozlar uchun 50 dan ortiq loyihalarni amalga oshirdim. Saytlarni “kalit topshirish” asosida — tuzilma va dizayndan tortib to‘liq ishlab chiqish va joylashtirishgacha bajardim."
       },
       {
-        "period": "2018-2019",
-        "company": "«Uztextile Export» при Ассоциации «Узтекстильпром»",
-        "position": "Ведущий специалист",
-        "description": [
-          "Поиск и привлечение клиентов из стран ЕС",
-          "Ведение переговоров и сопровождение экспортных сделок"
-        ]
+        "period": "2021 - 2022",
+        "company": "MAS Marketing",
+        "position": "Veb-dasturchi",
+        "description": "Kompaniyalar, brendlar va ijodkorlar uchun zamonaviy va funksional veb-saytlar yaratdim. Korporativ saytlar, promo sahifalar va ijrochilar uchun shaxsiy sahifalar ishlab chiqib, moslashuvchanlik, yuklanish tezligi va vizual uslubga alohida e’tibor qaratdim."
       },
       {
-        "period": "2017-2018",
-        "company": "«TPMA» при Ассоциации «Узтекстильпром»",
-        "position": "Главный специалист отдела маркетинга",
-        "description": [
-          "Анализ рынка, экспортных направлений и эффективности продвижения"
-        ]
-      },
-      {
-        "period": "2016-2017",
-        "company": "Дизайн центр «Шарк Либослари» при Ассоциации «Узтекстильпром»",
-        "position": "Ведущий специалист отдела маркетинга.",
-        "description": [
-          "Продвижение коллекций одежды и услуг центра"
-        ]
+        "period": "2020 - 2021",
+        "company": "CodeCraft",
+        "position": "Mentor",
+        "description": "Frontend dasturlash bo‘yicha kurs o‘qitdim va 40 dan ortiq talabalarni professional faoliyatga tayyorladim."
       }
     ]
+
   },
   "favoriteStack": {
-    "title": ["Знание" , "языков"],
+    "title": ["Texnologiyalar " , "steki"],
     "stack": [
       {
-        "stack": "Узбекский",
-        "title": "Родной язык",
-        "proc":"95%",
-        "description": "Говорю и думаю на узбекском. Легко нахожу общий язык с производствами, командами и партнёрами на месте."
+        "stack": "React.js",
+        "title": "React.js va 20 dan ortiq React kutubxonalari",
+        "proc": "95%",
+        "description": "React.js asosida murakkab va kengaytiriladigan frontend ilovalar yarataman. State management, component arxitekturasi va mashhur React kutubxonalari bilan samarali ishlayman."
       },
       {
-        "stack": "Русский",
-        "title": "Свободно",
-        "proc":"95%",
-        "description": "Мой основной рабочий язык. На нём веду переговоры, объясняю сложные вещи простым языком и выстраиваю доверие."
+        "stack": "Next.js",
+        "title": "Next.js va TypeScript",
+        "proc": "80%",
+        "description": "Next.js yordamida SEO-friendly, tezkor va server-side rendering qo‘llab-quvvatlanadigan web ilovalar ishlab chiqaman. TypeScript orqali kod sifati va barqarorligini ta’minlayman."
       },
       {
-        "stack": "Английский",
-        "title": "Рабочий, без барьеров",
-        "proc":"95%",
-        "description": "Использую в общении с иностранными партнёрами: переписка, встречи, презентации и обсуждение условий сотрудничества."
+        "stack": "Git",
+        "title": "GitHub va GitLab",
+        "proc": "95%",
+        "description": "Git yordamida jamoaviy ishlash, versiyalarni boshqarish va kodni xavfsiz yuritish tajribasiga egaman. GitHub va GitLab workflow’lari bilan faol ishlayman."
       },
       {
-        "stack": "Французский",
-        "title": "Уверенный уровень",
-        "proc":"80%",
-        "description": "Использую в живом общении и переписке. Комфортно чувствую себя в диалогах и понимаю нюансы речи."
-      },
-      {
-        "stack": " Турецкий",
-        "title": "Средний уровень",
-        "proc":"70%",
-        "description": "Общаюсь с турецкими руководителями фабрик во время визитов и рабочих встреч, без переводчиков."
+        "stack": "Tailwind , Bootstrap",
+        "title": "Tailwind CSS va Bootstrap",
+        "proc": "80%",
+        "description": "Tailwind va Bootstrap orqali tezkor, responsive va toza dizaynli interfeyslar yarataman. UI komponentlarni moslashuvchan va qayta ishlatish mumkin bo‘lgan holatda ishlab chiqaman."
       }
     ]
   },
   "awards": {
-    "title": "Выставки",
+    "title": ["Til" , "ko‘nikmalari"],
     "content": [
       {
-        "period": "2025",
-        "company": "Heimtextil",
-        "position": "Узбекистан, Ташкент"
+        "period": "95%",
+        "company": "O‘zbek tili",
+        "position": "Ona tili"
       },
       {
-        "period": "2025",
-        "company": "UzTextile Expo",
-        "position": "Узбекистан, Ташкент"
+        "period": "80%",
+        "company": "Rus tili",
+        "position": "Erkin muloqot"
       },
       {
-        "period": "2024",
-        "company": "Heimtextil",
-        "position": "Узбекистан, Ташкент"
-      },
-      {
-        "period": "2024",
-        "company": "UzTextile Expo",
-        "position": "Узбекистан, Ташкент"
-      },
-      {
-        "period": "2023",
-        "company": "UzTextile Expo",
-        "position": "Узбекистан, Ташкент"
-      },
-      {
-        "period": "2022",
-        "company": "BEE TOGETHER",
-        "position": "Россия, Москва."
-      },
-      {
-        "period": "2019",
-        "company": "FAST TEXTILE",
-        "position": "Польша, Варшава."
-      },
-      {
-        "period": "2019",
-        "company": "CJF - Детская мода",
-        "position": "Россия, Москва."
-      },
-      {
-        "period": "2019",
-        "company": "Мир Детство и Детская мода",
-        "position": "Казахстан, Алматы."
-      },
-      {
-        "period": "2018",
-        "company": "Мир Детство и Детская мода",
-        "position": "Казахстан, Алматы."
-      },
-      {
-        "period": "2018",
-        "company": "International Istanbul Yarn Fair",
-        "position": "Турция, Стамбул."
-      },
-      {
-        "period": "2018",
-        "company": "Yarn and Fabrics Sourcing Fair",
-        "position": "Бангладеш, Дакка."
-      },
-      {
-        "period": "2017",
-        "company": "TEX WORLD USA",
-        "position": "США, Нью-Йорк."
+        "period": "40%",
+        "company": "Ingliz tili",
+        "position": "Texnik daraja"
       }
     ]
+
   },
   "trusted": {
     "title": ["Коллеги по" , "цеху"]
   },
   "questions": {
     "title": [
-      "Часто",
-      "задаваемые вопросы"
+      "Ko‘p so‘raladigan",
+      "savollar"
     ],
+    "mot": "Har bir g‘oyani puxta reja, toza kod va kuchli foydalanuvchi tajribasi orqali real natijaga aylantiraman.",
     "footer_title": [
-      "НУЖЕН АУДИТ",
-      "РЫНОК И КЛИЕНТЫ"
+      "Tezlik. Qulaylik.",
+      "Natija."
     ],
-    "btn": "СВЯЗАТЬСЯ",
+    "btn": "BOG‘LANISH",
     "questionsData": [
       {
-        "question": "Чем вы отличаетесь от обычного маркетингового агентства?",
-        "answer": "Я не продаю универсальные решения. Я 10 лет работаю именно с текстильной отраслью и понимаю производство, себестоимость, экспорт и логику B2B-продаж. Маркетинг для меня — это инструмент роста бизнеса, а не просто красивая упаковка."
+        "question": "Qaysi texnologiyalar bilan ishlaysiz?",
+        "answer": "Asosan React.js va Next.js bilan ishlayman. Shuningdek, TypeScript, Tailwind CSS, Git va frontend dasturlash uchun zamonaviy vositalardan foydalanaman."
       },
       {
-        "question": "С какими текстильными компаниями вы работаете?",
-        "answer": "Я работаю с фабриками и брендами лёгкой промышленности: пряжа, трикотажное полотно, готовая одежда. В приоритете компании, которые думают стратегически и ориентированы на рост, экспорт и долгосрочные партнёрства."
+        "question": "Saytlarni «kalit topshirish» asosida qilasizmi?",
+        "answer": "Ha, saytlarni to‘liq ishlab chiqaman — tuzilma va interfeysdan boshlab, yakuniy yig‘ish, optimizatsiya va joylashtirishgacha."
       },
       {
-        "question": "Вы занимаетесь продажами или только маркетингом?",
-        "answer": "Я работаю на стыке маркетинга и продаж. Моя задача — выстроить систему, которая помогает привлекать партнёров, усиливать доверие и поддерживать реальные переговоры, а не просто увеличивать охваты и лайки."
+        "question": "SEO bilan ham ishlaysizmi?",
+        "answer": "Ha, texnik SEO optimizatsiyasi bilan shug‘ullanaman: semantik markup, meta-teglar, yuklanish tezligini oshirish va SEO-friendly sayt tuzilmasi."
       },
       {
-        "question": "Можно ли с вами работать, если у компании нет сильного бренда?",
-        "answer": "Да. В большинстве случаев ко мне приходят именно с этой задачей. Я помогаю выстроить позиционирование с нуля: от смысла и стратегии — до материалов, коммуникации и выхода на рынок."
+        "question": "Admin panel ham qilasizmi?",
+        "answer": "Ha, kontent, foydalanuvchilar va ma’lumotlarni boshqarish uchun qulay va funksional admin panellar ishlab chiqaman."
       },
       {
-        "question": "Работаете ли вы с международными рынками?",
-        "answer": "Да. У меня есть опыт работы с компаниями, ориентированными на СНГ, Европу, США и Турцию. Я помогаю адаптировать маркетинг и коммуникацию под требования иностранных партнёров и байеров."
+        "question": "Hamkorlikni qanday boshlash mumkin?",
+        "answer": "Aloqa formasi orqali yoki bevosita bog‘lanishingiz mumkin. Vazifalar va talablarni muhokama qilgach, optimal yechim va muddatlarni taklif qilaman."
       }
     ]
   }
+
 }

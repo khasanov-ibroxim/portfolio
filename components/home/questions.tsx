@@ -112,16 +112,16 @@ const Questions = ({dict, lang}) => {
                         />
                     </div>
                     <div className="w-full px-5 sm:w-1/2 text-center mt-10 text-lg uppercase font-bold">
-                        Я живу маркетингом, потому что он про решения, ответственность и рост. Всё остальное — вторично.
+                        {dict.questions.mot}
                     </div>
                     <div
                         className=" mt-10 bottom-10  text-[18px] uppercase font-bold flex flex-col justify-center items-center gap-5 sm:flex-row sm:right-[20px]">
                         {[{
                             name: "Instagram",
-                            href: "https://www.instagram.com/yokubovsmarketing?igsh=OXpoNzh6a3d1bXN3&utm_source=qr"
-                        }, {name: "Telegram", href: "https://t.me/DrTex"}, {
-                            name: "Facebook",
-                            href: "https://www.facebook.com/share/1DQEYrQj6o/?mibextid=wwXIfr"
+                            href: "https://www.instagram.com/khasanov_ibroxim/"
+                        }, {name: "Telegram", href: "https://t.me/Khasanov_ibroxim"}, {
+                            name: "WhatsApp",
+                            href: "https://wa.me/998993045475"
                         }]
                             .map((item, index) => (
                                 <Link

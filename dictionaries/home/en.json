@@ -1,301 +1,239 @@
 {
+  "moreWorks": "MORE WORKS",
   "hero": {
 
     "name": ["Khasanov","Ibroxim"],
     "status": "AVAILABLE FOR FREELANCE",
-    "location": "Ташкент, Узбекистан",
-    "title": "Маркетолог стратег"
+    "location": "Tashkent, Uzbekistan",
+    "title": "Web Developer"
+  },
+  "portfolio": {
+    "left": ["Personal", "portfolio"],
+    "right": "My creative spirit comes alive in the digital realm. With nimble fingers flying across the keyboard, I craft clear experiences out of nothing but ones and zeroes."
   },
   "about": {
-    "title": ["Стратегия Подход" , "Экспорт"],
-    "subtitle": "Я работаю с текстильным бизнесом там, где маркетинг перестаёт быть презентацией и начинается влияние на цифры, контракты и ответственность. Я не теоретик и не «маркетолог по охватам» — я понимаю производство, себестоимость и экспортную реальность. Моя работа начинается с диагностики бизнеса и заканчивается ростом выручки, а не отчётами по лайкам.",
-    "description": ["Более 10 лет я занимаюсь развитием текстильных компаний и брендов, выстраиваю маркетинг под реальные бизнес-цели и сопровождаю экспорт продукции. Я участвовал в переговорах с партнёрами из Европы, США, Турции и Азии, работал с фабриками при выходе на внешние рынки и международные выставки, поэтому говорю с бизнесом на языке цифр, процессов и контрактов." ,
-    "С 2019 года я возглавляю World Textile Marketing Agency — агентство, которое специализируется исключительно на лёгкой промышленности. Мы выстраиваем маркетинг как систему: позиционирование, продажи и выход на новые рынки, без «креатива ради креатива», с фокусом на устойчивый и прогнозируемый рост бизнеса."
+    "title": ["Solution Design" , "Development"],
+    "subtitle": "I am a frontend developer specializing in building modern and user-friendly digital products. I mainly work with React.js and Next.js. In every project, I prioritize user experience, clean code, and performance.",
+    "description": ["I have been working in the field since 2020 and have completed numerous projects across various domains." ,
+    "Turning design into effective solutions and simplifying complex ideas through clear interfaces is my core approach. I work responsibly on every project, aiming to deliver results that serve real business goals and user needs."
     ],
-    "btn": "Дипломы"
+    "btn": "Portfolio"
   },
   "expertise": {
-    "title": "Экспертность",
-    "key_fueters": "Основные направления",
+    "title": "Expertise",
+    "key_fueters": "Primary focus areas",
     "content": [
       {
         "id": 1,
         "number": "(1)",
-        "title": "Аудит",
-        "description": "Провожу глубокий разбор бизнеса, маркетинга и продаж.\nНахожу точки потерь, системные ошибки и скрытые возможности роста.\nАудит даёт чёткое понимание, что именно мешает бизнесу зарабатывать больше.",
-        "price": "Только по запросу ",
-        "fullDescription": "Я разбираю маркетинг, продажи и стратегию, чтобы точно понять, где бизнес теряет деньги и что мешает росту выручки.",
+        "title": "Frontend Development",
+        "description": "Building modern, fast, and responsive user interfaces.",
+        "price": "Only upon request",
+        "fullDescription": "I create high-quality frontend solutions focused on clean code, scalability, and performance.",
         "features": [
-          "Аудит маркетинга и продаж",
-          "Анализ позиционирования и ценности",
-          "Выявление точек роста выручки"
+          "HTML5, CSS3, JavaScript",
+          "React.js, Next.js",
+          "Responsive design",
+          "Cross-browser support"
         ],
-        "image": "/exp/audit.jpg"
+        "image": "/exp/1.png"
       },
       {
         "id": 2,
         "number": "(2)",
-        "title": "Анализ рынка",
-        "description": "Изучаю рынок, конкурентов и поведение клиентов.\nОпределяю реальный спрос, ценовые коридоры и точки дифференциации.\nАнализ рынка — основа для сильных решений и устойчивого роста.",
-        "price": "Только по запросу ",
-        "fullDescription": "Анализ рынка — это основа всех стратегических решений.\nЯ изучаю спрос, конкурентов и логику выбора клиентов,\nчтобы бизнес принимал решения на основе фактов, а не ощущений.",
+        "title": "UI / UX Implementation",
+        "description": "Turning designs into intuitive user interfaces.",
+        "price": "Only upon request",
+        "fullDescription": "I implement interfaces with a strong focus on usability and user experience.",
         "features": [
-          "Анализ спроса и рыночных ниш",
-          "Оценка конкурентов и ценовых моделей",
-          "Определение точек дифференциации"
+          "Figma to Code",
+          "UX flows",
+          "Animations",
+          "Accessibility"
         ],
-        "image": "/exp/analiz.jpg"
+        "image": "/exp/2.png"
       },
       {
         "id": 3,
         "number": "(3)",
-        "title": "Продвижение продукции",
-        "description": "Выстраиваю стратегию продвижения, ориентированную на выручку, а не охваты.\nФормирую позиционирование, сообщения и каналы, которые приводят клиентов.\nМаркетинг как инструмент продаж, а не расход.",
-        "price": "Только по запросу",
-        "fullDescription": "Продвижение продукции — это не реклама ради охватов.\nЯ выстраиваю маркетинг, который приводит клиентов\nи напрямую влияет на выручку бизнеса.",
+        "title": "Performance & Optimization",
+        "description": "Improving website speed and efficiency.",
+        "price": "Only upon request",
+        "fullDescription": "I optimize web applications to ensure fast load times and smooth performance.",
         "features": [
-          "тратегия продвижения и позиционирование",
-          "Сообщения и каналы продаж",
-          "Фокус на действиях, приносящих выручку"
+          "Lazy loading",
+          "Code splitting",
+          "Image optimization",
+          "Lighthouse optimization"
         ],
-        "image": "/exp/prodvijeniya.jpg"
+        "image": "/exp/3.png"
       },
       {
         "id": 4,
         "number": "(4)",
-        "title": "Экспорт продукции",
-        "description": "Помогаю подготовить бизнес к выходу на зарубежные рынки.\nАнализирую страны, требования, риски и точки входа.\nЭкспорт — это система, а не случайная сделка.",
-        "price": "Только по запросу ",
-        "fullDescription": "Экспорт продукции — это система, а не разовая сделка.\nЯ помогаю подготовить бизнес к выходу на внешние рынки,\nснизив риски и повысив шансы на устойчивые контракты.",
+        "title": "API Integration",
+        "description": "Connecting frontend with backend services.",
+        "price": "Only upon request",
+        "fullDescription": "I integrate APIs to build fully functional and data-driven web applications.",
         "features": [
-          "Анализ стран и рынков сбыта",
-          "Оценка готовности продукта к экспорту",
-          "Формирование стратегии выхода на рынок"
+          "REST API",
+          "Axios / Fetch",
+          "JWT authentication",
+          "Error handling"
         ],
-        "image": "/exp/eksport.jpg"
+        "image": "/exp/4.png"
       },
       {
         "id": 5,
         "number": "(5)",
-        "title": "Переговоры и сопровождение сделок",
-        "description": "Сопровождаю переговоры с партнёрами и покупателями.\nПомогаю выстроить позицию, аргументацию и защитить интересы бизнеса.\nРезультат — понятные условия и долгосрочные контракты.",
-        "price": "Только по запросу",
-        "fullDescription": "Переговоры — это точка, где решается судьба сделки.\nЯ сопровождаю бизнес на ключевых этапах общения с партнёрами,\nпомогая сохранить позицию, условия и результат.",
+        "title": "SEO Optimization",
+        "description": "Optimizing websites for search engines.",
+        "price": "Only upon request",
+        "fullDescription": "I apply technical SEO best practices to improve visibility and rankings.",
         "features": [
-          "Подготовка к переговорам и стратегия позиции",
-          "Сопровождение ключевых переговоров",
-          "Контроль условий и фиксация договорённостей"
+          "Meta tags",
+          "Semantic HTML",
+          "Open Graph",
+          "SEO-friendly URLs"
         ],
-        "image": "/exp/peregavori.jpg"
+        "image": "/exp/5.png"
+      },
+      {
+        "id": 6,
+        "number": "(6)",
+        "title": "Admin Panel Development",
+        "description": "Developing functional admin dashboards.",
+        "price": "Only upon request",
+        "fullDescription": "I build admin panels that allow efficient data management and control.",
+        "features": [
+          "Dashboards",
+          "CRUD systems",
+          "Roles & permissions",
+          "Responsive admin UI"
+        ],
+        "image": "/exp/6.png"
       }
     ]
   },
   "motivation": {
-    "title": "АУДИТ",
-    "content": {
-      "title_top": [
-        "Я не начинаю с рекламы.",
-        "Я начинаю с диагноза."
-      ],
-      "item_1_title": "Большинство фабрик приходят, когда:",
-      "item_1_content": [
-        "продажи не растут",
-        "рынок изменился",
-        "старые каналы не работают",
-        "маркетинг стал расходом, а не инструментом"
-      ],
-      "title_2": [
-        "В таких случаях «креатив» не лечит.",
-        "Нужен маркетинговый аудит."
-      ],
-      "item_2_title": "Я разбираю бизнес по системе:",
-      "item_2_content": [
-        "PESTLE — что происходит с рынком и страной",
-        "SWOT — реальные сильные и слабые стороны",
-        "STP — кому вы на самом деле продаёте",
-        "воронка продаж — где теряются деньги",
-        "каналы и конкуренты — почему выбирают не вас",
-        "маркетинг-микс (4P / 6P+F) — где сломана логика"
-      ],
-      "item_3_title": "После аудита:",
-      "item_3_content": [
-        "появляется чёткая картина",
-        "уходят лишние действия",
-        "маркетинг становится управляемым",
-        "решения опираются на цифры, а не на «ощущения»"
-      ],
-      "title_3": ["Я не продаю рекламу." , "Я ставлю диагноз и предлагаю лечение, которое даёт результат."]
-    }
+    "title": "Motivation",
+    "content":"For me, every project is more than just code — it is a responsibility. I strive to create high-quality digital solutions that combine business goals with a great user experience. Continuous learning, growth, and attention to detail are my main motivations."
   },
   "experience": {
-    "title": "Опыт",
+    "title": "Experience",
     "content": [
       {
-        "period": "2019- по н.в.",
+        "period": "2022 - Present",
         "company": "WORLD TEXTILE MARKETING AGENCY",
-        "position": "Учредитель, Директор",
-        "description": [""]
+        "position": "Frontend Developer",
+        "description": "I specialize in building corporate websites for companies, primarily in the textile industry. I develop modern, user-friendly, and high-performance interfaces that help businesses effectively present their products and strengthen their digital presence."
       },
       {
-        "period": "2019",
-        "company": "«TPMA» при Ассоциации «Узтекстильпром»",
-        "position": "Главный специалист отдела маркетинга",
-        "description": ["Анализ рынка, экспортных направлений и эффективности продвижения"]
+        "period": "2020 - Present",
+        "company": "Freelance",
+        "position": "Freelancer",
+        "description": "Delivered 50+ projects for clients from various business sectors, creating turnkey websites — from structure and design to full development and deployment."
       },
       {
-        "period": "2018-2019",
-        "company": "«Uztextile Export» при Ассоциации «Узтекстильпром»",
-        "position": "Ведущий специалист",
-        "description": ["Поиск и привлечение клиентов из стран ЕС","Ведение переговоров и сопровождение экспортных сделок"]
+        "period": "2021 - 2022",
+        "company": "MAS Marketing",
+        "position": "Web Developer",
+        "description": "Developed modern and functional websites for companies, brands, and artists. Worked on corporate websites, promo pages, and personal pages for performers, with a strong focus on responsiveness, loading speed, and visual style."
       },
       {
-        "period": "2017-2018",
-        "company": "«TPMA» при Ассоциации «Узтекстильпром»",
-        "position": "Главный специалист отдела маркетинга",
-        "description": ["Анализ рынка, экспортных направлений и эффективности продвижения"]
-      },
-      {
-        "period": "2016-2017",
-        "company": "Дизайн центр «Шарк Либослари» при Ассоциации «Узтекстильпром»",
-        "position": "Ведущий специалист отдела маркетинга.",
-        "description": ["Продвижение коллекций одежды и услуг центра"]
+        "period": "2020 - 2021",
+        "company": "CodeCraft",
+        "position": "Mentor",
+        "description": "Taught a Frontend Development course and prepared more than 40 students for professional careers."
       }
     ]
   },
   "favoriteStack": {
-    "title": ["Знание" , "языков"],
+    "title": ["Technology" , "Stack"],
     "stack": [
       {
-        "stack": "Узбекский",
-        "title": "Родной язык",
-        "proc":"95%",
-        "description": "Говорю и думаю на узбекском. Легко нахожу общий язык с производствами, командами и партнёрами на месте."
+        "stack": "React.js",
+        "title": "React.js and 20+ React Libraries",
+        "proc": "95%",
+        "description": "I build complex and scalable frontend applications using React.js. I have strong experience with state management, component architecture, and popular React libraries."
       },
       {
-        "stack": "Русский",
-        "title": "Свободно",
-        "proc":"95%",
-        "description": "Мой основной рабочий язык. На нём веду переговоры, объясняю сложные вещи простым языком и выстраиваю доверие."
+        "stack": "Next.js",
+        "title": "Next.js and TypeScript",
+        "proc": "80%",
+        "description": "I develop fast and SEO-friendly web applications with Next.js. Using TypeScript helps ensure code quality, reliability, and long-term maintainability."
       },
       {
-        "stack": "Английский",
-        "title": "Рабочий, без барьеров",
-        "proc":"95%",
-        "description": "Использую в общении с иностранными партнёрами: переписка, встречи, презентации и обсуждение условий сотрудничества."
+        "stack": "Git",
+        "title": "GitHub and GitLab",
+        "proc": "95%",
+        "description": "I use Git for version control, team collaboration, and secure code management. Experienced with GitHub and GitLab workflows."
       },
       {
-        "stack": "Французский",
-        "title": "Уверенный уровень",
-        "proc":"80%",
-        "description": "Использую в живом общении и переписке. Комфортно чувствую себя в диалогах и понимаю нюансы речи."
-      },
-      {
-        "stack": " Турецкий",
-        "title": "Средний уровень",
-        "proc":"70%",
-        "description": "Общаюсь с турецкими руководителями фабрик во время визитов и рабочих встреч, без переводчиков."
+        "stack": "Tailwind , Bootstrap",
+        "title": "Tailwind CSS and Bootstrap",
+        "proc": "80%",
+        "description": "I create responsive and modern user interfaces using Tailwind CSS and Bootstrap, focusing on clean design and efficient development."
       }
     ]
   },
   "awards": {
-    "title": "Выставки",
+    "title": ["Knowledge" , "of Languages"],
     "content": [
       {
-        "period": "2025",
-        "company": "Heimtextil",
-        "position": "Узбекистан, Ташкент"
-
+        "period": "95%",
+        "company": "Uzbek language",
+        "position": "Native language"
       },
       {
-        "period": "2025",
-        "company": "UzTextile Expo",
-        "position": "Узбекистан, Ташкент"
+        "period": "80%",
+        "company": "Russian language",
+        "position": "Fluent communication"
       },
       {
-        "period": "2024",
-        "company": "Heimtextil",
-        "position": "Узбекистан, Ташкент"
-      },
-      {
-        "period": "2024",
-        "company": "UzTextile Expo",
-        "position": "Узбекистан, Ташкент"
-      },
-      {
-        "period": "2023",
-        "company": "UzTextile Expo",
-        "position": "Узбекистан, Ташкент"
-      },
-      {
-        "period": "2022",
-        "company": "BEE TOGETHER",
-        "position": "Россия, Москва."
-      },
-      {
-        "period": "2019",
-        "company": "FAST TEXTILE",
-        "position": "Польша, Варшава."
-      },
-      {
-        "period": "2019",
-        "company": "CJF - Детская мода",
-        "position": "Россия, Москва."
-      },
-      {
-        "period": "2019",
-        "company": "Мир Детство и Детская мода",
-        "position": "Казахстан, Алматы."
-      },
-      {
-        "period": "2018",
-        "company": "Мир Детство и Детская мода",
-        "position": "Казахстан, Алматы."
-      },
-      {
-        "period": "2018",
-        "company": "International Istanbul Yarn Fair",
-        "position": "Турция, Стамбул."
-      },
-      {
-        "period": "2018",
-        "company": "Yarn and Fabrics Sourcing Fair",
-        "position": "Бангладеш, Дакка."
-      },
-      {
-        "period": "2017",
-        "company": "TEX WORLD USA",
-        "position": "США, Нью-Йорк."
+        "period": "40%",
+        "company": "English language",
+        "position": "Technical level"
       }
     ]
+
   },
   "trusted": {
     "title": ["Коллеги по" , "цеху"]
   },
   "questions": {
-    "title": ["Часто" , "задаваемые вопросы"],
-    "footer_title": ["НУЖЕН АУДИТ" , "РЫНОК И КЛИЕНТЫ"],
-    "btn": "СВЯЗАТЬСЯ",
+    "title": [
+      "Frequently Asked",
+      "Questions"
+    ],
+    "mot": "I turn every idea into real results through thoughtful solutions, clean code, and a strong user experience.",
+    "footer_title": [
+      "Speed. Usability.",
+      "Results."
+    ],
+    "btn": "CONTACT",
     "questionsData": [
       {
-        "question": "Чем вы отличаетесь от обычного маркетингового агентства?",
-        "answer": "Я не продаю универсальные решения. Я 10 лет работаю именно с текстильной отраслью и понимаю производство, себестоимость, экспорт и логику B2B-продаж. Маркетинг для меня — это инструмент роста бизнеса, а не просто красивая упаковка."
+        "question": "What technologies do you work with?",
+        "answer": "I mainly work with React.js and Next.js. I also use TypeScript, Tailwind CSS, Git, and other modern frontend development tools."
       },
       {
-        "question": "С какими текстильными компаниями вы работаете?",
-        "answer": "Я работаю с фабриками и брендами лёгкой промышленности: пряжа, трикотажное полотно, готовая одежда. В приоритете компании, которые думают стратегически и ориентированы на рост, экспорт и долгосрочные партнёрства."
+        "question": "Do you build websites turnkey?",
+        "answer": "Yes, I develop websites end-to-end — from structure and interface to final build, optimization, and deployment."
       },
       {
-        "question": "Вы занимаетесь продажами или только маркетингом?",
-        "answer": "Я работаю на стыке маркетинга и продаж. Моя задача — выстроить систему, которая помогает привлекать партнёров, усиливать доверие и поддерживать реальные переговоры, а не просто увеличивать охваты и лайки."
+        "question": "Do you work with SEO?",
+        "answer": "Yes, I handle technical SEO optimization, including semantic markup, meta tags, page speed optimization, and SEO-friendly site structure."
       },
       {
-        "question": "Можно ли с вами работать, если у компании нет сильного бренда?",
-        "answer": "Да. В большинстве случаев ко мне приходят именно с этой задачей. Я помогаю выстроить позиционирование с нуля: от смысла и стратегии — до материалов, коммуникации и выхода на рынок."
+        "question": "Do you develop admin panels?",
+        "answer": "Yes, I create functional and user-friendly admin panels for managing content, users, and project data."
       },
       {
-        "question": "Работаете ли вы с международными рынками?",
-        "answer": "Да. У меня есть опыт работы с компаниями, ориентированными на СНГ, Европу, США и Турцию. Я помогаю адаптировать маркетинг и коммуникацию под требования иностранных партнёров и байеров."
+        "question": "How can we start working together?",
+        "answer": "You can contact me via the contact form or directly. After discussing your requirements, I will propose the best solution and timeline."
       }
     ]
   }
+
 }

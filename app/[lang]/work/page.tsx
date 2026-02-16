@@ -53,7 +53,7 @@ export default function WorkPage() {
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, ease: "easeInOut" }}
                 >
-                    SELECTED
+                    {dict.title[0]}
                 </motion.div>
                 <motion.div
                     viewport={{ once: false, amount: 0.5 }}
@@ -62,7 +62,7 @@ export default function WorkPage() {
                     transition={{ duration: 0.8, ease: "easeInOut" }}
                     className="overflow-hidden"
                 >
-                    WORKS
+                    {dict.title[1]}
                 </motion.div>
             </div>
 
@@ -84,9 +84,8 @@ export default function WorkPage() {
                                 <Image
                                     src={project.thumbnail}
                                     alt={project.title}
-                                    width={800}
-                                    height={600}
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+
+                                    className="w-[100%] h-[400px] object-cover transition-transform duration-500 group-hover:scale-110"
                                 />
                             </div>
                             <div className="flex justify-between items-center w-full px-5 py-5">

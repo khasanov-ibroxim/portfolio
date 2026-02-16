@@ -1,13 +1,13 @@
 {
-  "title": "ИЗБРАННЫЕ РАБОТЫ",
-  "period": "(2021 - 2024)",
-  "moreWorks": "БОЛЬШЕ РАБОТ",
-  "visitSite": "ПОСЕТИТЬ САЙТ",
-  "client": "КЛИЕНТ",
-  "year": "ГОД",
-  "category": "КАТЕГОРИЯ",
-  "liveProject": "ЖИВОЙ ПРОЕКТ",
-  "category_type": ["Korporativ sayt"],
+  "title": ["TANLANGAN","ISHLAR"],
+  "period": "(2021 – 2026)",
+  "moreWorks": "YANADA KO‘PROQ ISHLAR",
+  "visitSite": "SAYTGA O‘TISH",
+  "client": "MIJOZ",
+  "year": "YIL",
+  "category": "KATEGORIYA",
+  "liveProject": "JONLI LOYIHA",
+  "category_type": ["Korporativ sayt " , "e-commerce va brend sayti" ],
   "thompson": {
     "category": 0,
     "client": "Thompson Window Film",
@@ -32,6 +32,195 @@
       {
         "title": "Biznes qiymati",
         "desc": "Bu sayt kompaniya uchun onlayn sotuvchi vazifasini bajaradi. U brend imijini mustahkamlaydi, xizmatlarni professional tarzda namoyish qiladi va yangi mijozlar oqimini ta’minlashga xizmat qiladi."
+      }
+    ]
+  },
+  "oltinMato": {
+    "category": 0,
+    "client": "Oltin Mato Group",
+    "description": "Oltin Mato — mato va tikuvchilik xizmatlari uchun biznes veb-sayt",
+    "sections": [
+      {
+        "title": "Dizayn",
+        "desc": "Sayt dizayni mato va tikuvchilik xizmatlarini toza, aniq va professional ko‘rinishda taqdim etadi. Vizual bloklar, xizmatlar bo‘limi va kontaktlar aniq joylashgan. Ranglar to‘qimachilik mavzusiga mos, foydalanuvchi uchun chalg‘itmaydigan tasviriy uslub yaratadi."
+      },
+      {
+        "title": "Texnik yechim",
+        "desc": "Sayt mustaqil biznes ehtiyojlariga mos kod strukturasida yaratilgan: mobil, planshet va desktop mashinalarda to‘liq responsiv, tez yuklanadi va mantiqiy navigatsiya bilan ishlaydi. Texnik yechimlar sodda, oson qo‘shimcha funksiyalar uchun ochiq."
+      },
+      {
+        "title": "Marketing",
+        "desc": "Kontent foydalanuvchini xizmatni tanlashga undaydigan tarzda joylashtirilgan: mahsulot turlari, tikuvchilik xizmatlari, qo‘shimcha xizmatlar (agar sayt ichida bo‘lsa). Savdo tarafidan foydalanuvchi manfaatlari aniq ko‘rsatilgan."
+      },
+      {
+        "title": "Mijoz qulayligi",
+        "desc": "Foydalanuvchi uchun sayt strukturasining aniq bo‘lishi, xizmatlar bo‘limining qulay navigatsiyada joylashuvi va kontakt ma’lumotlarining yaqqol ko‘rinishi uni foydalanishga qulay qiladi. Xaridorlar uchun aloqa shakllari oson topiladi."
+      },
+      {
+        "title": "Biznes qiymati",
+        "desc": "Bu sayt kompaniya biznesi uchun onlayn imkoniyat yaratadi — yangi mijozlar jalb qilish, xizmatlarni namoyish etish va brend imidjini mustahkamlash uchun asos bo‘ladi. Sayt orqali to‘g‘ridan-to‘g‘ri aloqaga o‘tish imkoniyati mavjud."
+      }
+    ]
+  },
+  "zarhal": {
+    "category": 0,
+    "client": "Zarhal group",
+    "description": "ZARHAL GROUP — mato va tekstil mahsulotlari ishlab chiqaruvchi biznes sayti",
+    "sections": [
+      {
+        "title": "Dizayn",
+        "desc": "Sayt dizayni kompaniyaning to‘liq tekstil ishlab chiqarish siklini va mahsulotlar assortimenti aks ettiradi. Vizual tuzilma sodda va aniq, foydalanuvchi uchun asosiy bo‘limlar — mahsulotlar katalogi, ishlab chiqarish jarayoni, kompaniya haqidagi ma’lumotlarni tez topish imkonini beradi."
+      },
+      {
+        "title": "Texnik yechim",
+        "desc": "Saytning texnik yechimi responsiv va tezkor ishlashga asoslangan: navigatsiya mantiqiy, bloklar tartibli joylashtirilgan — foydalanuvchi har bir bo‘limga qulay yetib boradi. Kod tuzilmasi sodda va kelajakda qo‘shimchalar uchun mos."
+      },
+      {
+        "title": "Marketing",
+        "desc": "Saytda kontent marketing yo‘nalishida — kompaniya ishlab chiqarishdagi afzalliklari, ekologik yondashuv va xalqaro standartlar haqida ma’lumot beriladi, bu esa mijozda sifat va ishonch hissi hosil qiladi."
+      },
+      {
+        "title": "Mijoz qulayligi",
+        "desc": "Foydalanuvchilar uchun sayt qulay tuzilgan: mahsulot katalogi, kompaniya tarixi, ishlab chiqarish jarayoni, kontaktlar bo‘limlari yaxshi tartiblangan. Bu mijozlar uchun kerakli ma’lumotni tez topish imkonini beradi."
+      },
+      {
+        "title": "Biznes qiymati",
+        "desc": "Bu sayt kompaniyaning onlayn taqdimoti vazifasini bajaradi: ishlab chiqarish imkoniyatlari, mahsulot assortimenti va yetkazib berish yo‘nalishlari haqida aniq ma’lumot beradi. Bu biznesni kengaytirish va mijozlar bilan muloqotni osonlashtiradi."
+      }
+    ]
+  },
+  "stampa": {
+    "category": 0,
+    "client": "Stampa",
+    "description": "Stampa — professional tekstil bo‘yash va raqamli bosma xizmatlari veb-sayti",
+    "sections": [
+      {
+        "title": "Dizayn",
+        "desc": "Sayt dizayni to‘qimachilik xizmatlari va mahsulotlarini aniq ko‘rsatishga yo‘naltirilgan. Bosh sahifa, xizmatlar bo‘limlari va mahsulot galereyasi strukturalangan. Ranglar mato va print mavzusiga mos tanlangan hamda foydalanuvchiga vizual ma’lumotni tez qabul qilish imkonini beradi."
+      },
+      {
+        "title": "Texnik yechim",
+        "desc": "Sayt responsiv, turli ekran o‘lchamlarga mos, mantiqiy navigatsiyaga ega. Bloklar tartibli joylashtirilgan va foydalanuvchi kerakli bo‘limga tez yetib boradi. Kod strukturasida toza tuzilma qo‘llangan va texnik kengaytirish imkoniga mos."
+      },
+      {
+        "title": "Marketing",
+        "desc": "Kontent kompaniya xizmatlari — bo‘yash (dyeing) va raqamli bosma (digital printing) bo‘yicha savdo yo‘naltirilgan. Xizmatlar foydali tomonlari — rang aniqligi, sifati va texnologiyasi — matbuot maydoni orqali tushuntirib berilgan."
+      },
+      {
+        "title": "Mijoz qulayligi",
+        "desc": "Sayt foydalanuvchi uchun qulay tarzda tuzilgan: xizmatlar, mahsulotlar va kontaktlar bo‘limi tartibli. Mijozlar kerakli bo‘limni tez topadi, aloqa formasi va ma’lumotlar aniq ko‘rsatilgan."
+      },
+      {
+        "title": "Biznes qiymati",
+        "desc": "Bu sayt kompaniyaning onlayn taqdimoti vazifasini bajaradi — mahsulotlari va xizmatlarini raqamli bosma hamda bo‘yash sohasida aniq ko‘rsatadi. Sayt biznesni kengaytirish va yangi mijozlar jalb qilish uchun mos vosita sifatida xizmat qiladi."
+      }
+    ]
+  },
+  "akyus": {
+    "category": 1,
+    "client": "Akyus",
+    "description": "AKYUS — trikotaj kiyimlar uchun zamonaviy fashion brend veb-sayti",
+    "sections": [
+      {
+        "title": "Dizayn",
+        "desc": "Sayt dizayni minimalistik va fashion-yo‘naltirilgan. Katta vizual bloklar, professional fotosuratlar va toza oq fon brend uslubini kuchli ko‘rsatadi. Dizayn kiyimning ranglari, matosi va shakliga e’tibor qaratadi. Har bir blok moda brendiga xos estetikani saqlagan."
+      },
+      {
+        "title": "Texnik yechim",
+        "desc": "Sayt tezkor, responsiv va barqaror ishlaydi. Desktop, planshet va mobil qurilmalarda bir xil sifatda ko‘rinadi. Navigatsiya oddiy: mahsulotlar, kolleksiyalar, “About” va kontaktlar oson topiladi. Kod tuzilmasi kelajakda e-commerce funksiyalarini kengaytirishga mos."
+      },
+      {
+        "title": "Marketing",
+        "desc": "Sayt brend g‘oyasini aniq yetkazadi: komfort + stil + ishonch. Sloganlar, hero-bloklar va kolleksiya taqdimoti mijozni hissiy jihatdan jalb qiladi. Kontent texnik emas, balki lifestyle va fashion hissiyotiga asoslangan."
+      },
+      {
+        "title": "Mijoz qulayligi",
+        "desc": "Foydalanuvchi sayt bo‘ylab oson harakatlanadi. Kolleksiyalar vizual ravishda tushunarli, mahsulotlar esa real hayotda qanday ko‘rinishini ko‘rsatadi. Buyurtma va aloqa qilish jarayoni soddalashtirilgan."
+      },
+      {
+        "title": "Biznes qiymati",
+        "desc": "Bu sayt AKYUS brendining raqamli yuzi hisoblanadi. U mahsulotlarni professional tarzda namoyish qiladi, brend ishonchini oshiradi va onlayn savdoni qo‘llab-quvvatlaydi."
+      }
+    ]
+  },
+  "yustex": {
+    "category": 1,
+    "client": "Yustex",
+    "description": "YUSTEX — trikotaj kiyimlar ishlab chiqaruvchi professional textile kompaniya veb-sayti",
+    "sections": [
+      {
+        "title": "Dizayn",
+        "desc": "Sayt dizayni ishlab chiqarish miqyosi, sifat va ishonchlilikni ko‘rsatishga qaratilgan. Toza layout, katta sarlavhalar va real ishlab chiqarish jarayonidan olingan fotosuratlar kompaniyaning kuchli tomonlarini ochib beradi. Fashion va industrial uslub muvozanatda saqlangan."
+      },
+      {
+        "title": "Texnik yechim",
+        "desc": "Sayt tezkor, responsiv va barqaror ishlaydi. Desktop, planshet va mobil qurilmalarga to‘liq mos. Murakkab kontent (ishlab chiqarish bosqichlari, sertifikatlar, texnologiyalar) mantiqiy bloklarga ajratilgan. Kod strukturasida keyinchalik katalog va buyurtma funksiyalarini kengaytirish imkoniyati mavjud."
+      },
+      {
+        "title": "Marketing",
+        "desc": "Sayt marketing nuqtayi nazaridan ishonchga asoslangan. Hamkor brendlar, ishlatilayotgan uskunalar (JUKI, SIRUBA va boshqalar), xalqaro sertifikatlar va sifat nazorati jarayonlari ochiq ko‘rsatilgan. Bu B2B mijozlar uchun muhim qaror qabul qilish omilidir."
+      },
+      {
+        "title": "Mijoz qulayligi",
+        "desc": "Foydalanuvchi sayt orqali kompaniyaning imkoniyatlarini bosqichma-bosqich tushunadi: ishlab chiqarish → sifat nazorati → mahsulotlar → aloqa. CTA’lar (bog‘lanish, so‘rov qoldirish) aniq va qulay joylashtirilgan."
+      },
+      {
+        "title": "Biznes qiymati",
+        "desc": "Bu sayt YUSTEX kompaniyasining raqamli vizitkasi va savdo vositasi hisoblanadi. U yangi hamkorlar va brendlarni jalb qilish, ishlab chiqarish imkoniyatlarini namoyish etish va uzoq muddatli hamkorlikni shakllantirishga xizmat qiladi."
+      }
+    ]
+  },
+  "chorkesar": {
+    "category": 1,
+    "client": "Chorkesar Broyler",
+    "description": "Chorkesar Broyler — broyler go‘shti va tuxum ishlab chiqaruvchi agro-brend veb-sayti",
+    "sections": [
+      {
+        "title": "Dizayn",
+        "desc": "Sayt dizayni tabiiylik, tozalik va ishonch g‘oyalariga asoslangan. Oq va yashil ranglar, yumaloq shakllar va real mahsulot fotosuratlari brendning ekologik va xavfsiz ishlab chiqarishga bo‘lgan yondashuvini kuchaytiradi. Vizual bloklar foydalanuvchida ishonch uyg‘otadi."
+      },
+      {
+        "title": "Texnik yechim",
+        "desc": "Sayt tezkor, responsiv va barqaror ishlaydi. Kontent ko‘p bo‘lishiga qaramay (mahsulotlar, statistika, ishlab chiqarish jarayonlari), sahifalar mantiqiy bloklarga ajratilgan. Navigatsiya oddiy, CTA tugmalar (“Kontaktlar”, “Mahsulotlar”) aniq joylashtirilgan."
+      },
+      {
+        "title": "Marketing",
+        "desc": "Sayt marketing jihatdan ishonch va dalillarga asoslangan: ishlab chiqarish hajmlari, sifat nazorati, ekologik yondashuv va sertifikatlar ko‘rsatilgan. Statistik ko‘rsatkichlar (millionlab mahsulot, minglab tonna) brendning miqyosini aniq ochib beradi."
+      },
+      {
+        "title": "Mijoz qulayligi",
+        "desc": "Foydalanuvchi saytda bosqichma-bosqich yo‘lni ko‘radi: kompaniya → mahsulotlar → ishlab chiqarish sifati → aloqa. Kontent tushunarli, matnlar sodda, vizual yordamchi elementlar ko‘p."
+      },
+      {
+        "title": "Biznes qiymati",
+        "desc": "Bu sayt Chorkesar Broyler brendining raqamli ishonch platformasi hisoblanadi. U mahsulotlarni targ‘ib qilish, hamkorlar va distribyutorlarni jalb qilish hamda yakuniy iste’molchi bilan aloqani mustahkamlashga xizmat qiladi."
+      }
+    ]
+  },
+  "etbs": {
+    "category": 1,
+    "client": "ETBS",
+    "description": "ETBS Engineering — sanoat va injiniring texnologik yechimlari uchun korporativ veb-sayt",
+    "sections": [
+      {
+        "title": "Dizayn",
+        "desc": "Sayt dizayni sanoat miqyosi, ishonchlilik va texnik ekspertizani aks ettiradi. Qoramtir ranglar, texnik vizuallar va real obyekt fotosuratlari kompaniyaning professional qiyofasini kuchaytiradi. Dizayn B2B auditoriya uchun jiddiy va ishonchli uslubda ishlab chiqilgan."
+      },
+      {
+        "title": "Texnik yechim",
+        "desc": "Sayt tezkor, barqaror va responsiv. Murakkab texnik kontent (xizmatlar, texnologiyalar, ishlab chiqarish jarayonlari) mantiqiy bloklarga ajratilgan. Navigatsiya sodda, CTA tugmalar aniq joylashtirilgan. Kod strukturasida keyinchalik loyihalar va xizmatlar bo‘limini kengaytirish imkoniyati mavjud."
+      },
+      {
+        "title": "Marketing",
+        "desc": "Sayt marketing jihatdan ishonch va ekspertlikka asoslangan. Kompaniya afzalliklari — yuqori texnologiyalar, ekologik yondashuv, energiya samaradorligi — aniq dalillar bilan ko‘rsatilgan. Bu sanoat va B2B mijozlar uchun muhim qaror qabul qilish omilidir."
+      },
+      {
+        "title": "Mijoz qulayligi",
+        "desc": "Foydalanuvchi sayt orqali kompaniya imkoniyatlarini bosqichma-bosqich tushunadi: muammo → texnologik yechim → afzalliklar → aloqa. Aloqa shakllari va “bog‘lanish” CTA’lari qulay joylashtirilgan."
+      },
+      {
+        "title": "Biznes qiymati",
+        "desc": "Bu sayt ETBS Engineering kompaniyasining raqamli savdo va taqdimot vositasi hisoblanadi. U yangi sanoat loyihalari, hamkorliklar va B2B buyurtmalarni jalb qilishga xizmat qiladi."
       }
     ]
   }

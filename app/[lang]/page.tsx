@@ -25,13 +25,12 @@ export default async function Home({ params }: HomeProps) {
         <>
             <HomeHeader dict={dict} />
             <FeaturedWork dict={dict} lang={lang} />
-            <HomeAbout dict={dict} />
+            <HomeAbout dict={dict} lang={lang}/>
             <Expertise dict={dict} />
             <Motivation dict={dict} />
             <Experience dict={dict} />
             <FavoriteStack dict={dict} />
             <Awwards dict={dict} />
-            <Trusted dict={dict} />
             <Questions dict={dict} lang={lang} />
         </>
     );

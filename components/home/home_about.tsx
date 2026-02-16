@@ -5,25 +5,24 @@ import home_about_index from "@/assets/home/home_about/home_about.jpg"
 import Image from "next/image";
 import {useTheme} from "next-themes";
 
-import bakan_white from "@/assets/home/home_about/bakan_white.png"
-import bakan_black from "@/assets/home/home_about/bakan_black.png"
-import chust_white from "@/assets/home/home_about/chust_white.png"
-import chust_black from "@/assets/home/home_about/chust_black.png"
-import osborn_white from "@/assets/home/home_about/osborn_white.png"
-import osborn_black from "@/assets/home/home_about/osborn_black.png"
-import reybo_white from "@/assets/home/home_about/reybo_white.png"
-import reybo_black from "@/assets/home/home_about/reybo_black.png"
+
 import stampa_white from "@/assets/home/home_about/stampa_white.png"
 import stampa_black from "@/assets/home/home_about/stampa_black.png"
-import trend_white from "@/assets/home/home_about/trend_white.png"
-import trend_black from "@/assets/home/home_about/trend_black.png"
 import yustex_white from "@/assets/home/home_about/yustex_white.png"
 import yustex_black from "@/assets/home/home_about/yustex_black.png"
 import zarhal_white from "@/assets/home/home_about/zarhal_white.png"
 import zarhal_black from "@/assets/home/home_about/zarhal_black.png"
+import thompson_black from "@/assets/home/home_about/thompson_black.png"
+import thompson_white from "@/assets/home/home_about/thompson_white.png"
+import fandi_black from "@/assets/home/home_about/fandi_black.png"
+import fandi_white from "@/assets/home/home_about/fandi_white.png"
+import mas_black from "@/assets/home/home_about/mas_black.png"
+import mas_white from "@/assets/home/home_about/mas_white.png"
+import xumson_black from "@/assets/home/home_about/xumson_black.png"
+import xumson_white from "@/assets/home/home_about/xumson_white.png"
 
 
-const HomeAbout = ({dict}) => {
+const HomeAbout = ({dict , lang}) => {
     const containerRef = useRef(null);
     const [isMobile, setIsMobile] = useState(false);
     const {theme, setTheme} = useTheme();
@@ -52,14 +51,13 @@ const HomeAbout = ({dict}) => {
     const imageOpacity = useTransform(scrollYProgress, [0.2, 0.4, 0.6], [1, 1, 1]);
 
     const companies = [
-        {name: 'bakan', logo: theme === "dark" ? bakan_black : bakan_white},
-        {name: 'chust', logo: theme === "dark" ? chust_black : chust_white},
-        {name: 'osborn', logo: theme === "dark" ? osborn_black : osborn_white},
-        {name: 'reybon', logo: theme === "dark" ? reybo_black : reybo_white},
         {name: 'stampa', logo: theme === "dark" ? stampa_black : stampa_white},
-        {name: 'trend', logo: theme === "dark" ? trend_black : trend_white},
         {name: 'yustex', logo: theme === "dark" ? yustex_black : yustex_white},
         {name: 'zarhal', logo: theme === "dark" ? zarhal_black : zarhal_white},
+        {name: 'thompson', logo: theme === "dark" ? thompson_black : thompson_white},
+        {name: 'fandi', logo: theme === "dark" ? fandi_black : fandi_white},
+        {name: 'mas', logo: theme === "dark" ? mas_black : mas_white},
+        {name: 'xumson', logo: theme === "dark" ? xumson_black : xumson_white},
 
     ];
 
@@ -162,7 +160,7 @@ const HomeAbout = ({dict}) => {
                             </p>
                         </div>
 
-                        <motion.button
+                        <motion.a href={`/${lang}/work`}
                             whileHover={{scale: 1.05}}
                             whileTap={{scale: 0.95}}
                             className=" relative overflow-hidden mt-10
@@ -188,7 +186,7 @@ const HomeAbout = ({dict}) => {
             dark:hover:text-black hover:text-black"
                         >
                             <span className={"relative z-10"}>{dict.about.btn}</span>
-                        </motion.button>
+                        </motion.a>
                     </motion.div>
 
                     {/* Companies Carousel */}

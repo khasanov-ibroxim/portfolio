@@ -4,11 +4,12 @@ import React from 'react';
 const Awwards = ({dict}) => {
     console.log(dict);
     return (
-        <section className="min-h-screen dark:bg-black bg:text-white relative">
+        <section className=" dark:bg-black bg:text-white relative">
             <div className="flex sm:flex-row flex-col  px-5">
                 {/* Left Side - Sticky Title */}
                 <div className="w-full sm:w-1/2 sm:pr-5  top-0 sm:sticky text-5xl md:text-5xl font-bold tracking-tight h-full pt-10 sm:flex items-center  ">
-                    {dict.awards.title}
+                    {dict.awards.title[0]} <br/>
+                    {dict.awards.title[1]}
 
                 </div>
 

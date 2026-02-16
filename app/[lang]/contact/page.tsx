@@ -13,7 +13,7 @@ export default async function Page({ params }: ContactProps) {
 
     return (
         <div>
-            <ContactForm dict={dict} />
+            <ContactForm dict={dict} lang={lang} />
         </div>
     );
 }

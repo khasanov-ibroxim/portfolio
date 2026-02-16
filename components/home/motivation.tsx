@@ -48,45 +48,16 @@ const Motivation = ({dict}) => {
 
     return (
         <div className={"py-16 "}>
-            <div className={"flex justify-between flex-col md:flex-row md:px-10 pb-16 px-3 overflow-hidden"}>
+            <div className={"flex justify-between flex-col md:flex-row md:px-10 pb-0 px-3 overflow-hidden"}>
                 <h3 className={"w-full mb-10 md:mb-0 md:w-2/4 font-bold text-4xl md:text-6xl"}>{dict.motivation.title}</h3>
                 <div className="w-full md:w-2/4 flex flex-col text-lg md:text-xl gap-5">
-                    <p>{dict.motivation.content.title_top[0]} <br/> {dict.motivation.content.title_top[1]}</p>
-                    <ol>
-                        <li>{dict.motivation.content.item_1_title}</li>
-                        {dict.motivation.content.item_1_content.map((item, index) => {
-                            return <li key={index}>- {item}</li>
-                        })}
-                    </ol>
-                    <p>{dict.motivation.content.title_2[0]} <br/> {dict.motivation.content.title_2[1]}</p>
-                    <ol>
-                        <li>{dict.motivation.content.item_2_title}</li>
-                        {dict.motivation.content.item_2_content.map((item, index) => {
-                            return <li key={index}>- {item}</li>
-                        })}
-                    </ol>
-                    <ol>
-                        <li>{dict.motivation.content.item_3_title}</li>
-                        {dict.motivation.content.item_3_content.map((item, index) => {
-                            return <li key={index}>- {item}</li>
-                        })}
-                    </ol>
-                    <p>{dict.motivation.content.title_3[0]} <br/> {dict.motivation.content.title_3[1]}</p>
-                    <div className="w-full overflow-hidden pr-2 flex items-end justify-end">
-                        <div
-                            className="w-2/4 h-[150px]  bg-no-repeat bg-center
-             bg-[url('/check/check_black.png')]
-             dark:bg-[url('/check/check_white.png')] bg-contain"
-                        ></div>
-                    </div>
-
-
+                    <p>{dict.motivation.content}</p>
                 </div>
             </div>
 
             <div
                 ref={imageRef}
-                className="w-full h-[60vh] md:h-screen mt-10 relative overflow-hidden"
+                className="w-full h-[50vh] md:h-screen mt-0 relative overflow-hidden"
             >
                 <div
                     className="w-full h-full absolute inset-0 overflow-hidden"
