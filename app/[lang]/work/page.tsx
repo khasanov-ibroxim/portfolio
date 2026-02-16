@@ -47,23 +47,25 @@ export default function WorkPage() {
                 <div className="text-[18px] mb-5 dark:text-white/60 text-black/60 font-instrument-sans">
                     {dict.period}
                 </div>
-                <motion.div
-                    viewport={{ once: false, amount: 0.5 }}
-                    initial={{ y: "100%", opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.8, ease: "easeInOut" }}
-                >
-                    {dict.title[0]}
-                </motion.div>
-                <motion.div
-                    viewport={{ once: false, amount: 0.5 }}
-                    initial={{ y: "100%", opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.8, ease: "easeInOut" }}
-                    className="overflow-hidden"
-                >
-                    {dict.title[1]}
-                </motion.div>
+                <div className="font-inter-tight font-bold text-4xl sm:text-9xl text-center">
+                    <motion.div
+                        viewport={{ once: false, amount: 0.5 }}
+                        initial={{ y: "100%", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, ease: "easeInOut" }}
+                    >
+                        {dict.title[0]}
+                    </motion.div>
+                    <motion.div
+                        viewport={{ once: false, amount: 0.5 }}
+                        initial={{ y: "100%", opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.8, ease: "easeInOut" }}
+                        className="overflow-hidden"
+                    >
+                        {dict.title[1]}
+                    </motion.div>
+                </div>
             </div>
 
             <div className="grid px-5 grid-cols-1 sm:grid-cols-2 mt-20 gap-5">
