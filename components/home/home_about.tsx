@@ -55,22 +55,22 @@ const HomeAbout = ({dict , lang}) => {
     const imageScale = useTransform(scrollYProgress, [0.2, 0.5, 0.7], [0.7, 1, 1]);
     const imageOpacity = useTransform(scrollYProgress, [0.2, 0.4, 0.6], [1, 1, 1]);
 
-    // ✅ OPTION 1: Standard naming
-    // white.png = oq/yorug' logo (light theme uchun)
-    // black.png = qora/to'q logo (dark theme uchun)
+    // ✅ OPTION 2: Reversed naming (agar fayl nomlari teskari bo'lsa)
+    // white.png = qora logo (dark background uchun)
+    // black.png = oq logo (light background uchun)
     const companies = [
-        {name: 'stampa', light: stampa_white, dark: stampa_black},
-        {name: 'yustex', light: yustex_white, dark: yustex_black},
-        {name: 'zarhal', light: zarhal_white, dark: zarhal_black},
-        {name: 'thompson', light: thompson_white, dark: thompson_black},
-        {name: 'fandi', light: fandi_white, dark: fandi_black},
-        {name: 'mas', light: mas_white, dark: mas_black},
-        {name: 'xumson', light: xumson_white, dark: xumson_black},
+        {name: 'stampa', light: stampa_black, dark: stampa_white},
+        {name: 'yustex', light: yustex_black, dark: yustex_white},
+        {name: 'zarhal', light: zarhal_black, dark: zarhal_white},
+        {name: 'thompson', light: thompson_black, dark: thompson_white},
+        {name: 'fandi', light: fandi_black, dark: fandi_white},
+        {name: 'mas', light: mas_black, dark: mas_white},
+        {name: 'xumson', light: xumson_black, dark: xumson_white},
     ];
 
     // Logo tanlash logikasi
     const getCompanyLogo = (company: typeof companies[0]) => {
-        if (!mounted) return company.dark; // Default: qora logo
+        if (!mounted) return company.dark; // Default: white fayl
         return theme === "dark" ? company.dark : company.light;
     };
 
